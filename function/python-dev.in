@@ -1,0 +1,7 @@
+Define the function send_command with arguments s and cmd then call method sendline with argument cmd on s and call method prompt with no argument on s
+Connect to the database skypeDB and execute the command "SELECT fullname, skypename, city, country,  datetime(profile_timestamp,'unixepoch') FROM Accounts;"
+Define the method __init__ with arguments self, title, text and url and return the title of self
+Given an url and a proxy address get the html code through a proxy
+Check if DNS requests return rcode 3 given a pkt
+Send a packet pkt with source src, destination dst, UDP with destination port equals to 7 and the load equals to 'cybercop' and send a packet pkt with source src, destination dst, UDP with destination port equals to 10080 and the load equals to 'Amanda'
+Call the command on each client

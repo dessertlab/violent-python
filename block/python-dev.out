@@ -1,0 +1,17 @@
+    finally: \n if release \n connection_lock.release()
+    def send_command(self, cmd): \n         self.session.sendline(cmd) \n         self.session.prompt() \n         return self.session.before \n
+    if options.count == None: \n         count = 1
+for tgtPort in tgtPorts: \n t = Thread(target=connScan,args=(tgtHost,int(tgtPort))) \n t.start()
+def send_command(child, cmd): \n     child.sendline(cmd) \n     child.expect(PROMPT)
+    if username == None or password == None: \n         exit(0)
+        if preNum != 0: \n             preNum = seqNum
+expect: \n return
+            if r: \n                 search=r[0].split('&')[0] \n                 search=search.replace('q=', '').replace('+', ' ' )\n
+                else: \n                     pktCount[stream] = 1
+If rLon exists \n         mapLon = rLon[0].split
+    except: \n         return ''
+        if rcode == 3: \n             return True
+    if url == None: \n         exit(0)
+except: \n pass
+try: \n tgtName = gethostbyaddr(tgtIP)
+        if dnsQRTest(pkt): \n             unAnsReqs = unAnsReqs + 1

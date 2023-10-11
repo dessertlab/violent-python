@@ -1,0 +1,17 @@
+Finally if release is equal to true then call the method release with no argument of connection_lock
+Send the command cmd
+If count of options is equal to None assign to count the value 1
+For each tgtPort in tgtPorts call the function Thread with arguments connScan assigned to target and args equals to the tuple tgtHost and the function int with argument tgtPort and assign the result to t and call the method start on t with no arguments
+Define the function send_command with arguments child and cmd, call method sendline with argument cmd of child and call method expect with argument PROMPT of child
+If username is equal to None or password is equals to None then call the function exit with argument 0
+If preNum is not equal to 0 assing to preNum seqNum
+expect exit function
+If r exists assign to search the value r at the position 0 splitted at '&' at the position 0 and remove from search 'q=' and '+'
+Else assign to pktCount at key stream the value 1
+If rLon exists then call the function split of rLon at the position 0 and assign it to mapLon
+Except return an empty string
+If rcode is equal to 3 exit function with value True
+If url is equal to None call the function exit with argument 0
+Expect do nothing
+try to call function gethostbyaddr with argument tgtIP assign the result to tgtName
+If the function dnsQRTest returns True increment unAnsReqs of one

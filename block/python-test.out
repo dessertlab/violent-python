@@ -1,0 +1,17 @@
+        if city != '': \n             geoLoc = city + ', ' + country
+    except Exception, e: \n         return 'Unregistered'
+        if ret == 2: \n             child.sendline('yes') \n             connect(user, host, keyfile, False)
+for client in botNet: \n output = client.send_command(command)
+    def __init__(self,title,text,url): \n         self.title = title \n         self.text = text \n         self.url = url \n
+def printProfile(skypeDB): \n     conn = sqlite3.connect(skypeDB) \n     c = conn.cursor() \n     c.execute("SELECT fullname, skypename, city, country,  datetime(profile_timestamp,'unixepoch') FROM Accounts;" \n
+            if link.has_key('href'): \n                 pass
+    for cookie in ab.cookie_jar: \n           pass
+except: \n dirList = [] \n return
+finally: \n screenlock.release() \n screenLock.close()
+    def __init__(self, host, user, password): \n         self.host = host \n         self.user = user \n         self.password = password \n         self.session = self.connect() \n
+        if pktsSent > THRESH: \n             src = stream.split(':')[0] \n             dst = stream.split(':')[1]
+    for cookie in cookie_jar: \n             pass
+def addClient(host, user, password): \ n client = Client(host, user, password) \n botNet.append(client)
+                if '.zip' in uri and 'loic' in uri: \n                     pass
+        except: \n             pass \n
+    if options.iface == None: \n         iface = 'eth0'

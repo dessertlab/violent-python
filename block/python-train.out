@@ -1,0 +1,137 @@
+    except: \n pass
+except: \n     sys.exit(0)
+try: \n         exifData = {} \n         imgFile = Image.open(imgFileName) \n         info = imgFile._getexif() \n         if info: \n             for (tag, value) in info.items(): \n                 decoded = TAGS.get(tag, tag) \n                 exifData[decoded] = value \n             exifGPS = exifData['GPSInfo'] \n     except: \n         pass \n
+    if url == None: \n exit
+    else: \n         skypeDB = os.path.join(pathName, 'main.db')
+    if lport == None: \n         lport = '1337'
+            if state == 'open': \n                 tgtHosts.append(host)
+        if passwdFile != None: \n             smbBrute(configFile,tgtHost,passwdFile,lhost,lport)
+    for sid in dirList: \n         files = os.listdir(recycleDir + sid) \n         user = sid2user(sid)
+        try: \n             eth = dpkt.ethernet.Ethernet(buf) \n             ip = eth.data \n             src = socket.inet_ntoa(ip.src) \n             srcKML = retKML(src) \n             dst = socket.inet_ntoa(ip.dst) \n             dstKML = retKML(dst) \n             kmlPts = kmlPts + srcKML + dstKML \n
+    except: \n         return ''
+        if os.path.isdir(recycleDir): \n             return recycleDir
+    for image in image_tags: \n         filename = image['src'].lstrip('http://') \n         filename = os.path.join(dir,filename.replace('/', '_')) \n         data = ab.open(image['src']).read() \n         ab.back() \n         save = open(filename, 'wb') \n         save.write(data) \n         save.close() \n
+            if 'message' in str(row): \n                 return True
+    except: \n exit(0)
+    try: \n         imgSrc = imgTag['src'] \n         imgContent = urllib2.urlopen(imgSrc).read() \n         imgFileName = basename(urlsplit(imgSrc)[2]) \n         imgFile = open(imgFileName, 'wb') \n         imgFile.write(imgContent) \n         imgFile.close() \n         return imgFileName \n
+if Fails > 5: \n exit(0)
+def nmapScan(tgtHost,tgtPort): \n     nmScan = nmap.PortScanner() \n     nmScan.scan(tgtHost,tgtPort) \n     state=nmScan[tgtHost]['tcp'][int(tgtPort)]['state' \n
+        for row in c: \n             host = str(row[0]) \n             name = str(row[1]) \n             value = str(row[2] \n
+    else: \n         iface = options.iface
+    else: \n         iface = options.iface
+    if options.thresh != None: \n         THRESH = options.thresh
+                else: \n
+        exit(0)
+except: \n screenLock.acquire()
+    else: \n         printNets(username, password)
+    if options.pcapFile == None: \n         exit(0)
+                if pktCount.has_key(stream): \n                     pktCount[stream] = pktCount[stream] + 1
+				    def __repr__(self): \n         return self.title
+    for result in objects['responseData']['results']: \n         url = result['url'] \n         title = result['titleNoFormatting'] \n         text = result['content'] \n         new_gr = Google_Result(title, text, url) \n         results.append(new_gr) \n
+    if options.keyword == None:    \n     exit(0)
+    else: \n         results = google(keyword)
+def google(search_term): \n     ab = anonBrowser() \n  \n     search_term = urllib.quote_plus(search_term) \n     response = ab.open('http://ajax.googleapis.com/'+       'ajax/services/search/web?v=1.0&q='+ search_term) \n
+    def __init__(self, handle): \n         self.handle = handle \n         self.tweets = self.get_tweets() \n
+        for result in json_objects['results']: \n             new_result = {} \n             new_result['from_user'] = result['from_user_name'] \n             new_result['geo'] = result['geo'] \n             new_result['tweet'] = result['text'] \n             tweets.append(new_result) \n
+                if link[0]: \n                     link = link[0]
+                else: \n                    continue
+            except: \n                 pass
+            for line in open(cityFile).readlines(): \n                 city = line.strip('\n').strip('\r').lower() \n                 cities.append(city)
+            if tweet['geo'] != None: \n                 locations.append(tweet['geo']) \n                 locCnt += 1
+            if city in tweetsText: \n                 locations.append(city) \n                 cityCnt += 1
+    for line in open(cityFile).readlines(): \n city=line.strip('\n').strip('\r').lower() \n cities.append(city) \n
+if tweet['geo'] != None: \n             locations.append(tweet['geo']) \n             locCnt += 1  \n
+if city in tweetsText: \n     locations.append(city) \n     cityCnt+=1  \n
+    if (cityFile!=None): \n  cities = load_cities(cityFile)
+    for result in json_objects['results']: \n         new_result = {} \n         new_result['from_user'] = result['from_user_name'] \n         new_result['geo'] = result['geo'] \n         new_result['tweet'] = result['text'] \n         tweets.append(new_result) \n
+            if link[0]: \n                 link = link[0]
+            elif link[1]: \n                link = link[1]
+            else: \n                 continue
+            try: \n                 response = urllib2.urlopen(link) \n                 full_link = response.url \n                 interests['links'].append(full_link) \n
+            except: \n                 pass
+    if (handle==None): \n     exit(0)
+    def __init__(self,first_name,last_name,      job='',social_media={}): \n         self.first_name = first_name \n         self.last_name = last_name \n         self.job = job \n         self.social_media = social_media \n
+    def __repr__(self): \n         return self.first_name + ' ' +          self.last_name + ' has job ' + self.job \n
+        if self.social_media.has_key(media_name): \n             return self.social_media[media_name] \n
+        for result in json_objects['results']: \n             new_result = {} \n             new_result['from_user'] = result['from_user_name'] \n             new_result['geo'] = result['geo'] \n             new_result['tweet'] = result['text'] \n             results.append(new_result) \n
+    try: \n smtpServer = smtplib.SMTP('smtp.gmail.com', 587) \n smtpServer.ehlo() \n smtpServer.starttls() \n smtpServer.ehlo() \n smtpServer.login(user, pwd) \n smtpServer.sendmail(user, to, msg.as_string()) \n smtpServer.close() \n
+    except: \n      pass \n
+    if handle == None or tgt == None      or user ==None or pwd==None: \n         exit(0) \n
+    if (location!=None): \n randLoc=choice(location) \n spamMsg += " Its me from "+randLoc+"." \n
+    if (interests['users']!=None): \n randUser=choice(interests['users']) \n spamMsg += " "+randUser+" said to say hello."  \n
+    if (interests['hashtags']!=None): \n randHash=choice(interests['hashtags']) \n spamMsg += " Did you see all the fuss about "+          randHash+"?" \n
+    if (interests['links']!=None): \n randLink=choice(interests['links']) \n spamMsg += " I really liked your link to: "+          randLink+"." \n
+	        for imgTag in imgTags: \n             imgFileName = downloadImage(imgTag) \n             testForExif(imgFileName)
+def printContacts(skypeDB): \n     conn = sqlite3.connect(skypeDB) \n     c = conn.cursor() \n     c.execute("SELECT displayname, skypename, city, country,phone_mobile, birthday FROM Contacts;" \n
+        elif ret == 3: \n             Fails += 1
+    if options.thresh != None: \n         THRESH = options.thresh
+        for row in c: \n             date = str(row[0]) \n             addr = str(row[1]) \n             text = row[2] \n
+def printDownloads(downloadDB): \n     conn = sqlite3.connect(downloadDB) \n     c = conn.cursor() \n     c.execute('SELECT name, source, datetime(endTime/1000000,\'unixepoch\') FROM moz_downloads;' \n
+        if 'encrypted' in str(e): \n             exit(0)
+if Stop: \n exit(0)
+        elif ret > 3: \n             Stop = True
+except Exception, e: \n return False
+        else: \n             dnsRecords[rrname] = [] \n             dnsRecords[rrname].append(rdata)
+        else: \n  geoLoc = country
+    except: \n         return False
+    if url == None or dir == None: \n         exit(0)
+    elif os.path.isdir(pathName) == False: \n         exit(0)
+    else: \n         conf.iface = options.iface
+        try: \n             mirrorImages(url, dir)
+    def connect(self): \n         try: \n             s = pxssh.pxssh() \n             s.login(self.host, self.user, self.password) \n             return s \n
+if len(sys.argv) > 2: \n    platform = sys.argv[2]
+if __name__ == '__main__': \n main()
+        if os.path.isfile(cookiesDB): \n             printCookies(cookiesDB)
+    else: \n              src = options.src
+        try: \n             ftp = ftplib.FTP(hostname) \n             ftp.login(userName, passWord) \n             ftp.quit() \n             return (userName, passWord) \n
+Start expect block \n Do nothing
+        except Exception, e: \n             pass
+    try: \n         ftp = ftplib.FTP(hostname) \n         ftp.login('anonymous', 'me@your.com') \n         ftp.quit() \n         return True \n
+def printCallLog(skypeDB): \n     conn = sqlite3.connect(skypeDB) \n     c = conn.cursor() \n     c.execute("SELECT datetime(begin_timestamp,'unixepoch'),  identity FROM calls, conversations WHERE  calls.conv_dbid = conversations.id;" \n
+    except: \n         pass
+if host == None or passDir == None or user == None: \n exit(0)
+    except: \n         return sid
+        if os.path.isfile(downloadDB): \n             printDownloads(downloadDB)
+    try:\n         connSkt = socket(AF_INET, SOCK_STREAM)\n         connSkt.connect((tgtHost, tgtPort))\n         connSkt.send('ViolentPython\r\n')\n         results = connSkt.recv(100)\n         screenLock.acquire()
+     try: \n               printMessage(iphoneDB)
+            if rdata not in dnsRecords[rrname]: \n                 dnsRecords[rrname].append(rdata)
+    if fileName == None: \n         exit(0)
+def send_command(s, cmd): \n     s.sendline(cmd) \n     s.prompt()
+    if (options.tgtHost == None) | (options.lhost == None): \n         exit(0)
+        for link in links: \n             pass
+                if '!lazor' in tcp.data.lower(): \n pass
+    else: \n         printLinks(url)
+        except: \n             pass
+    else: \n         printMeta(fileName)
+    else: \n         dst = options.tgt
+    if IPTEST(ipsrc).iptype() == 'PRIVATE': \n         return
+try: \n     s.connect((target,21))
+try: \n tgtIP = gethostbyname(tgtHost)
+        for row in c: \n             url = str(row[0]) \n             date = str(row[1]) \n
+try: \n         dirList = ftp.nlst()
+for sport in range(1024,65535): \n         IPlayer = IP(src=src, dst=tgt) \n         TCPlayer = TCP(sport=sport, dport=513) \n         pkt = IPlayer / TCPlayer \n         send(pkt) \n
+else: \n         synSpoof = options.synSpoof \n         srcSpoof = options.srcSpoof \n         tgt = options.tgt \n
+    if options.src == None: \n         src = '.'.join([str(randint(1,254)) for x in range(4)])
+    try: \n         s = pxssh.pxssh() \n         s.login(host, user, password) \n         return s
+for tgtPort in tgtPorts: \n nmapScan(tgtHost, tgtPort)
+    if pathName == None: \n         exit(0)
+    if options.iface == None: \n         conf.iface = 'eth0'
+if options.synSpoof == None or options.srcSpoof == None or options.tgt == None: \n
+    if abs(int(ttl) - int(ttlValues[ipsrc])) > THRESH: \n         pass
+        try: \n             eth = dpkt.ethernet.Ethernet(buf) \n             ip = eth.data \n             src = socket.inet_ntoa(ip.src) \n             dst = socket.inet_ntoa(ip.dst) \n
+        except: \n             break
+if len(sys.argv) < 2: \n      sys.exit(0)
+                except: \n                     pass
+try: \n         longitude = rec['longitude'] \n         latitude = rec['latitude'] \n         kml = (               '<Placemark>\n', '<name>%s</name>\n',  '<Point>\n', '<coordinates>%6f, %6f</coordinates>\n',           '</Point>\n','</Placemark>\n') \n         return kml \n
+    try: \n s = pxssh.pxssh() \n s.login(host, user, password) \n Found = True
+if pkt.haslayer(IP): \n             ipsrc = pkt.getlayer(IP).src \n             ttl = str(pkt.ttl) \n             checkTTL(ipsrc, ttl) \n
+    if ret == 0: \n return
+    else: \n         THRESH = 5
+    if pathName == None: \n         exit(0)
+        if os.path.isfile(placesDB): \n             printHistory(placesDB) \n             printGoogle(placesDB)
+                if str(row[1]) != str(row[2]): \n                     msgDirection = 'To ' + str(row[1]) + ': '
+    for ch in val: \n        addr += '%02x ' % ord(ch)
+    if rLat: \n         mapLat = rLat[0].split('&')[0].split('=')[1]
+    if options.tgt == None: \n         exit(0)
+    if not ttlValues.has_key(ipsrc): \n         pkt = sr1(IP(dst=ipsrc),ICMP(), retry=0, timeout=1, verbose=0) \n         ttlValues[ipsrc] = pkt.ttl
+        except Exception, e: \n             pass

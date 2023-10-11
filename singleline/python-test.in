@@ -1,0 +1,113 @@
+Assign 0 to seqNum
+Exit the function with argument geoLoc
+Exit with value 0
+Instantiate the class BoundedSemaphore with argument value equals to maxConnections and assign the result to connection_lock
+Call the method send with argument command concatenated to " " concatenated to crash concatenated to "\r\n"
+If username is equal to None or password is equals to None
+Send the packet synPkt
+Start try block
+Start the expection block with arguments Exception and e
+Call function send_command with arguments s and 'cat /etc/shadow | grep root'
+Assign to shellcode the tuple containing "\xbf\x5c\x2a\x11\xb3\xd9\xe5\xd9\x74\x24\xf4\x5d\x33\xc9" 
+Continue the value with "\NetworkList\Signatures\Unmanaged"
+If the method haslayer with argument DNSRR of pkt is True
+and "\xea\xc9\xf3\x7d\x78\x02\xc0\x9c\x7f\x0f\x60\xd6\xb8\xd8" 
+If rLat exists
+Define the cursor c of the database
+Import the library to control the operative system
+import everything from the library for threads
+Concatenate the strings
+Assign to opt the value ' -o PasswordAuthentication=no'
+Release the lock
+Add the option of the parser p for tgtPort as a string with help specify target port[s] separated by comma
+Call the open function with argument 'meta.rc' and 'w'
+Set a proxy to browser with address proxy
+Continue the argument with help 'specify wigle username'
+Assign to synSpoof the sunSpoof of options
+Call the method spawn with argument connStr of pexpect and assign it to child
+Import the library to manage time
+Acquire the lock
+Call the method split with argument '\\' and slice at position -1 and assign it to user
+If passwdFile is not equal to None
+Assign to TCPlayer the result of the function TCP with argument sport equals sport and dport equals to 513
+Exit the function with argument imgFileName
+For each ch in val
+import the library for parsing
+Call the method login with arguments userName and passWord of ftp
+If the value of Fails is more than 5
+If the substring 'read_nonblocking' is found in the result of the function str with argument e
+Assign to the value tcp the data of ip
+Add the options to parser '-i', dest equals to 'iface', type equals to 'string',  help equals to 'specify network interface'
+Define function connect with arguments host user and password
+Assign to skypeDB the path of main.db inside the pathName
+From the library to manipulate IPs import IP as IPTEST
+Assign to kml and empty string
+Assign an empty list to dnsRecords at the key rrname
+Call the method parse_args with no argument on parser and assign it to the tuple composed of options and args
+Assign to parser the OptionParser with argument  the concatenation of"usage %prog " and  "-p <firefox profile path> "
+Assign to c the cursor of conn
+Call the function printGoogle with argument placesDB
+If the absolute value of ttl casted to int minus the ttlValues at the hey ipsrc casted at int is more than THRESH
+Append to the list dnsRecords at the key rrname the value rdata
+Assign to mapLat the value rLat at the position 0, then call the function split with argument '&' at the position 0, then call the function split with argument '=' at the position 1
+Define the function testUserAgent with argument url an userAgent
+Connect to the database placesDB and assign it to conn
+Call the method append with argument host of tgtHosts
+Call the addClient function with arguments '127.0.0.1', 'root' and 'toor'
+Call the method write of configFile with argument 'setg DisablePayloadHandler 1\n'
+Call the method split with argument ':' on line, take the the result in position 1, call the strip method with argument '\r' then call the strip method with argument '\n' and assign it to passWord
+Assign to soup the result of BeautufulSoup with argument html
+Call the method write of configFile with argument 'set RHOST ' concatenated to the function str with argument tgtHost concatenated to '\n'
+Continue the argument and concatenation with  'windows/meterpreter/reverse_tcp\n'
+Call the function confickerExploit with arguments configFile, tgtHost, lhost and lport
+For each recycleDir in dirs
+Exit the function with tuple userName and passWord
+Assign to password the value password of options
+Call the function FTP with argument hostname of the library ftplib and assign it to ftp
+Assign to link_finder the function compile with argument 'href="(.*?)"' of re
+and "\xba\x1e\x53\x31"
+Assign to latitude the field 'latitude'  of rec
+Assign the value '192.168.95.179' to host
+Assign to text the result with key 'content'
+From the library to manipulate packets import everything
+Define the function synFlood with arguments src and tgt
+Call the function listDir with argument recycleDir of os and assign the result to dirList
+Call the function nlst with no argument from the library ftp and assign to dirList
+Assign to r the result of all the substring that match the pattern r'q=.*\&' of url
+Continue the arguments with value "SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList"
+Continue the argument and the list with the value '[P|p]assword:'
+Assign to addr the value ''
+From the library to edit the Windows registry import everything
+Get the record for that IP and assign it to rec
+Import the library to manipulate json files
+Assign the value True to the variable Found
+Start the try block
+If the thresh of options is not equal to None
+For each cookie in the cookie_jar of ab
+Assign to passWord the value 'guest'
+Define the function val2addr with argument val
+Assign to url the result of function str with argument row at position 0
+Call the method acquire with no arguments of connection_lock
+Assign to src the src of options
+For each pkt in pkts
+Call the method write of configFile with argument 'exploit -j -z\n'
+Call the function wiglePrint with argument username, password and macAddr
+Assign to url the value 'http://ip.nefsc.noaa.gov/'
+Assign the value user to self.user
+Call the function printCookies with argument url
+Assign to userAgent a tuple made of 'User-agent' and 'Mozilla/5.0 (X11; U; '+  'Linux 2.4.2-2 i586; en-US; m18) Gecko/20010131 Netscape6/6.01' inside a list
+and "\x19\xe6\x91\x65\x94\xf6\xd6\x42\x46\x8d\x2c\xb1\xfb\x96" 
+Assign to  kmlheader the string '<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2">\n<Document>\n'
+Start try block
+Exit the function with value True
+Assign to country the field 'country_name' of rec
+Call the function sleep with argument 4 of the library time
+From the library to parse HTML import BeautifilSoup
+Open the page at the url and assign it to page
+Assing to preNum seqNum
+Assign True to the variable Stop
+Exit function and return the value addr
+If rLon exists
+Import the library to use a sqlite database
+Add the option -u for url as type string with help equals to 'specify url address'
+Define the function printGoogle with argument placesDB

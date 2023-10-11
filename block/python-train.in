@@ -1,0 +1,137 @@
+Expect do nothing
+Expect call the function exit with argument 0 of sys
+Check if the images contain Exif data, if it does then for each tuple tag and value in it decode it
+If url is None then exit with argument 0
+Else assign to skypeDB the path of main.db inside the pathName
+If lport is equal to None then assign to lport the value '1337'
+If state is equal to 'open' then call the method append with argument host of tgtHosts
+If passwdFile is not equal to None then call the function smbBrute with arguments configFile, tgtHost, passwdFile, lhost and lport
+For each sid in dirList call the function listDir with argument recycleDir concatenated to sid of os and assign it to files and call the function sid2user with argument sid and assign it to user
+nan
+Expect exit function with value ''
+If the method isdir with argument recycleDir of path of os returns True then Exit the function with value recycleDir
+For each image in image_tags assign to filename the result of the method lstrip with argument 'http://'  of image with key 'src', assign to filename the function join of path of os with arguments dir and the method replace with arguments '/' and '_' of filename, assign to filename the function join of path of os with arguments dir and the method replace with arguments '/' and '_' of filename, assign to data the method read with no argument of the method open with argument image with key 'src' of ab, call the method back with no argument of ab, open the filename with option 'wb' and assign it to save, call the method write with argument data of save and close the save file
+If the substring message is in the function str with argument row exit function with argument True
+Expect call exit function with argument 0
+Get the image from imgTag, download it into a file and return it
+If value Fails is more than 5 then call the function exit with argument 0
+Scan the tgtHost on tgtPort with nmap and calculate the state
+For each row in c assign to host the value of the function str with argument row at the position 0, assign to name the value of the function str with argument row at the position 1 and assign to value the value of the function str with argument row at the position 2
+Else assign to count the count of options
+Else assign to iface the value iface of options
+If thresh of options is not None assign to THRESH the value thresh of options
+Else Assign to msgDirection the concatenation of From, the function str with argument row at position 1 and :
+nan
+expect call method Call method acquire on screenLock with no arguments 
+Else Call the function printNets with arguments username and password
+If pcapFile of options is equal to None Call the exit function with argument 0
+If pktCount contains the key stream increment of one the pktCount at the key stream
+Define the method __init__ with arguments self, title, text and url and return the title of self
+For each result in response with keys 'responseData' and 'results', assign to url the result with key 'url', assign to title the result with key 'titleNoFormatting', assign to text the result with key 'content', assign to new_gr the result of the function Google_result with arguments title, text, url and append the new_gr to the list results
+If keyword of options is equal to None call the function exit with argument 0
+Else assign to results the result of the function google with argument keyword
+Given a string, make a google research with the ajax apis and get the response
+Define the function __init__ with arguments self and handle, assign to handle of self handle and assign to tweets of self the result of the method get_tweets with no argument of self
+For each result in json_objects with key 'results' assign to new_result an empty dictionary, assign to new_result with key 'from_user' the value of result with key 'from_user_name', assign to new_result with key 'geo' the value of result with key 'geo', assign to new_result with key 'tweet' the value of result with key 'text'and append to tweets the new_result
+If link at position 0 exists assign to link the link at the position 0
+Else continue
+Except do nothing
+For each line in the method readlines called with no arguments of the opened file cityFile assign to city the string stripped of '\n' and '\r' in low case and append to the list cities the city
+If tweet with key 'geo' is not equal to None append to locations the tweet with key 'geo' and increment locCnt of 1
+If the substring city is in tweetsText append to locations the value city and increment cityCnt of 1
+For each line in the method readlines with no argument of the opened file cityFile assign the line stripped of '\n' and '\r' in lower case to city and append city to cities
+If tweet with key 'geo' is not equal to None append the tweet with key 'geo' to locations and increment locCnt of 1
+If the substring city is in tweetsText append the city to locations and increment cityCnt of 1
+If cityFile is not equal to None, call the function load_cities with argument cityFile and assign the result to cities
+For each result in json_objects with key 'result' assign to new_result an empty dictionary, assign to new_result with key 'from_user' the variable result with key 'from_user_name', assign to new_result with key 'geo' the variable result with key 'geo', assign to new_result with key 'tweet' the variable result with key 'text' and append to tweets the new_result
+If link in position 0 exists, assign link in position 0 to link
+Else if link in position 1 exists, assign link in position 1 to link
+Else continue
+Start try block assign the result of the function urlopen with argument link of urllib2, assign the response of url to full_link, append full_link to interests with key links
+Excepet do nothing
+If handle is equal to None call the function exit to 0
+Define the function __init__ with arguments self, first_name, last_name, job equals to '' and social media equals to {}, assign to first_name of self the value first_name, assign to last_name of self the value last_name, assign to job of self the value job and assign to social_media of self the value social_media
+Define the method __repr__  with argument self and return the concatenation of first_name of self, ' ', last_name of self + ' has job ' + job of self
+If the variable social_media of self has the key media_name return the variable social_media with key media_nameof self
+For each result in json_object with key response assign an empty dictionary to new_result, assign result with key 'from_user_name' to new_result with key 'from_user', assign result with key 'geo' to new_result with key 'geo' assign result with key 'text' to new_result with key 'tweet' and append new_result to results
+Try to assign the result of the function SMTP of smtplib with arguments 'smtp.gmail.com and 587 to smtpServer, call the method ehlo with no argument of smtpServer, call the method starttls with no argument of smtpServer, call the method ehlo with no argument of smtpServer, call the method login with arguments user and pwd of smtpServer, call the method sendmail with arguments user, to and the method as_string with no argument of msg of smtpServer and call the method close with no argument of smtpServer
+Expect do nothing
+If handle is equal to None or tgt is equal to None      or user  is equal to None or pwd is equal to None call the function exit with argument 0
+If location is not equal to None assign the result of the function choice with argument location to randLoc and concatenate the concatenation of " Its me from ", randLoc and "." to spamMsg
+If interests with key 'users' is not equal to None assign to randUser the result of the function choice with argument interests with key 'users' and concatenate the concatenation of " ", randUser and " said to say hello." to spamMsg
+If interests with key 'hashtags' is not equal to None assign to randHash the result of the function choice with argument interests with key 'hashtags' concatenate the concatenation of " Did you see all the fuss about ", randHash and "?" to spamMsg
+If interests with key 'links' is not equal to None assign to randLink the result of the function choice with argument interests with key 'links' and concatenate the concatenation of " I really liked your link to: ", randLink and "." to spamMsg
+For each imgTag in imgTags download the image imgTag and assign it to imgFileName and call the function testForExif with argument imgFileName
+Connect to the database skypeDB and execute the command "SELECT displayname, skypename, city, country,phone_mobile, birthday FROM Contacts;"
+Else if ret equals 3 Increment the variable Fails of one
+If the thresh of options is not equal to None assign to THRESH the value thresh of options
+For each row in c assign to date the result of the function str with argument row at the position 0, assign to addr the result of the function str with argument row at the position 1 and Assign to text the variable row at position 2
+Connect to downloadDB database and execute the command 'SELECT name, source, datetime(endTime/1000000,\'unixepoch\') FROM moz_downloads;'
+If the substring encrypted is in the string e Call the function exit  with argument 0
+If value Stop is equal to True then call function exit with argument 0
+Else if ret is more than 3 Assign True to the variable Stop
+Start expect block with Exception and e and exit the function with argument False
+Else assign an empty list to dnsRecords at the key rrname and append to the list dnsRecords at the key rrname the value rdata
+Else assign to geoLoc the variable country
+Start expect block and exit function with argument False
+If url is equal to None or if dir is equal to None call the function exit with argument 0
+Else if the folder does not exists Call the function exit with argument 0
+Else Assign to iface of conf the value iface of options
+Try to call the function mirrorImages with arguments url and dir
+Connect with protocol ssx
+If the functions len with argument argv of sys returns a value bigger than 2 then assign to platform the value argv at position 2 of sys
+If __name__ equals '__main__' then call function main with no arguments
+If cookiesDB is a file call the function printCookies with argument cookiesDB
+Else  Assign to src the src of options
+Try a connection FTP to hostname, login with userName and passWord then quit and return userName and passWord
+nan
+Start except block with Exception and e then do nothing
+Try to connect to hostname with FTP protocol, with credentials 'anonymous' and 'me@your.com', quit the connection and then return True
+Connect to the database skypeDB and execute the command "SELECT datetime(begin_timestamp,'unixepoch'),  identity FROM calls, conversations WHERE  calls.conv_dbid = conversations.id;"
+Expect do nothing
+If host is equals to None or passDir is equals to None or User is equals to None then call function exit with argument 0
+Expect Exit the function with sid value
+If downloadDB is a file Call the function printDownloads with argument downloadDB
+Try to create the scoket with parameters AF_INET and SOCK_STREAM, connect to tgtHost on tgtPort, send the messsage 'ViolentPython\r\n', Receive the response in result and acquire the lock
+Try to call the function printMessage with argument iphoneDB
+If rdata is not in the lust dnsRecords with key rrname append to the list dnsRecords at the key rrname the value rdata
+If fileName is equal to None \n Call the function exit with argument 0
+Define the function send_command with arguments s and cmd then call method sendline with argument cmd on s and call method prompt with no argument on s
+If the variable tgtHost of options is equal to None or lhost of options is equal to None then call the exit function with argument 0
+For each link in links do nothing do nothing
+If the substring '!lazor' is in data of tcp in lower case do nothing
+Else call the function printLinks with argument url
+Except do nothing
+nan
+Else assign to dst the tgt of options
+If the method iptype with no argument of the function IPTEST with argument ipsrc is equal to "PRIVATE" then exit function with no argument
+Try to call the method connect with a tuple made of target and 21 of s
+try to call the method gethostbyname with argument tgtHost and assign the result to tgtIP
+For each row in c assign to url the result of function str with argument row at position 0 and assign to date the result of function str with argument row at position 1
+Start the try block then call the function nlst with no argument from the library ftp and assign to dirList
+For each sport in range from 1023 to 65535 assign to IPlayer the result of the function IP with src equals src and dst equals to tgt, assign to TCPlayer the result of the function TCP with argument sport equals sport and dport equals to 513, divide IPlayer by TCPlayer and assign it to pkt and call the function send with argument pkt
+Else assign to synSpoof the sunSpoof of options, assign to srcSpoof the srcSpoof of options and assign to tgt the tgt of options
+If the src of options is equal to None create a random source IP
+Try to call function pxssh of library pxssh with no arguments and assign it to s, call method login with arguments host, user and password and return the value s
+for each tgtPort in tgtPorts call the function nmapScan with arguments tgtHost and tgtPort
+if pathName is equal to None \n call the function exit with argument 0
+If the iface of options is equal to None assign to iface of conf the string 'eth0'
+If synSpoof of options is equal to None or if srcSpoof of options is equal to None or if tgt of options is equal to None then call the exit function with argument 0
+If the absolute value of ttl casted to int minus the ttlValues at the hey ipsrc casted at int is more than THRESH do nothing
+Try to  get source and destination from an IP packet
+Except exit the cycle
+If the functions len with argument argv of sys returns a value less than 2 then call the function exit with argument 0
+Start expect block and do nothing
+Try to assign to longitude the field 'longitude' of rec, assign to latitude the field 'latitude'  of rec, create the tuple kml with arguments '<Placemark>\n', '<name>%s</name>\n',  '<Point>\n', '<coordinates>%6f, %6f</coordinates>\n',  '</Point>\n' and '</Placemark>\n' and return the variable kml
+Try to call the method pxssh with no arguments of the package pxssh and assign it to s, Call the method login with arguments host, user and password of s and Assign the value True to the variable Found
+If the method haslayer with argument IP of pkt is equals to True assign to ipsrc the src of the method getlayer with argument IP of pkt, assign to ipsrc the src of the method getlayer with argument IP of pkt and assign to ttl the ttl of pkt casted to str
+If ret is equal to 0 then exit the function
+Else assign to THRESH five
+if pathName is equal to None call the function exit with argument 0
+If placesDB is a file Call the function printHistory with argument placesDB and Call the function printGoogle with argument placesDB
+if the function str with argument row at position 1 is not equal to function str with argument row at position 2 assign to msgDirection the concatenation of To, the function str with argument row at position 1 and :
+For each ch in val increase addr with value '%02x ' module of the result of the function ord with argument ch
+If rLat exists then assign to mapLat the value rLat at the position 0, then call the function split with argument '&' at the position 0, then call the function split with argument '=' at the position 1
+If tgt of options is equal to None call the function exit with argument 0
+If the method has_key with argument ipsrc of ttlValues is not True assign to pkt the value of the function sr1 with arguments IP with argument dst equals to ipsrc, ICMP with no arguments, retry equals to 0, timeout equals to 1 and verbose equals to 0 and assign to ttlValues at the key ipsrc the value ttl of pkt
+Start except block with Exception e and do nothing

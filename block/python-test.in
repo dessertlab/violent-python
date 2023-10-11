@@ -1,0 +1,17 @@
+If city is not equal to an empty string concatenate the strings city, ',' and country to geoLoc
+nan
+If ret equals 2 then Call the method sendline with argument 'yes' of child and Call the function connect with arguments user, host, keyfile and False
+For each client in botNet call the function send_command with argument command and assign the value to output
+Define the method __init__ with arguments self, title, text and url, assign to title of self the value title, assign to text of self the value text and assign to text of self the value text 
+Connect to the database skypeDB and execute the command "SELECT fullname, skypename, city, country,  datetime(profile_timestamp,'unixepoch') FROM Accounts;"
+If the function has_key with argument 'href' of link returns True do nothing
+For each cookie in the cookie_jar of ab do nothing
+Expect assign an empty list to dirList and exit the function
+finally call method release on screenLock with no arguments and method close on screenLock with no argument
+Costruct the class with host, user and password, then connect
+If pktsSent is more than THRESH take the first argument of stream splitted at ':' and assign it to src and take the second argument of stream splitted at ':'  and assign it to dst
+For each cookie in the cookie_jar do nothing
+Define the function addClient with arguments host, user and password then Call the class Client with argumet host, user and password and assign it to client then Call the method append on botNet with argument client
+If the substring '.zip' is in uri and the substring 'loic' is in uri do nothing
+Expect do nothing
+If iface of options is equal to None assign to iface the string 'eth0'
