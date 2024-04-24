@@ -2,7 +2,22 @@
 
 ***violent-python*** is a manually curated dataset, where a sample contains a piece of Python code from an offensive software, and its corresponding description in natural language (plain English). We built the dataset using the popular book _"Violent Python"_ by T.J. O'Connor, which presents several examples of offensive programs using the Python language. Our dataset covers multiple areas of offensive security, including penetration testing (e.g., an automated exploit for an SMB vulnerability, a port scanner, an SSH botnet); forensic analysis (e.g., geo-locating individuals, recovering deleted items, inspecting the Windows registry, examining metadata in documents and images, and analyzing data from mobile and desktop applications); network traffic analysis (e.g., capturing packets and geo-locating IP addresses, identifying DDoS toolkits, discovering decoy scans, analyzing botnet traffic, foiling intrusion detection systems); OSINT and social engineering (e.g., anonymously browsing the web, working with developer APIs, scraping popular social media sites, creating a spear-phishing email). 
 
-The dataset consists of __1,372__ samples and it is divided into three subsets, one including individual lines, one multi-line blocks and one functions. 
+
+The dataset has been presented in the paper [AI Code Generators for Security: Friend or Foe?](https://ieeexplore.ieee.org/abstract/document/10418104), accepted for publication in the IEEE Security and Privacy journal.
+
+```
+@article{natella2024ai,
+  title={AI Code Generators for Security: Friend or Foe?},
+  author={Natella, Roberto and Liguori, Pietro and Improta, Cristina and Cukic, Bojan and Cotroneo, Domenico},
+  journal={IEEE Security \& Privacy},
+  year={2024},
+  publisher={IEEE}
+}
+```
+
+We uploaded a model fine-tuned on this dataset on [HuggingFace](https://huggingface.co/dessertlab/violent-python-CodeBERT).
+
+The dataset consists of __1,372__ samples and it is divided into three subsets: individual lines, multi-line blocks, and functions. 
 
 
 ## Individual Lines
